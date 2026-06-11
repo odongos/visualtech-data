@@ -747,7 +747,7 @@
       "notes": "Payment due within 30 days of invoice date. Thank you for your business!",
       "status": "draft",
       "discountPct": 0,
-      "advancePaymentPct": 0,
+      "advancePaymentPct": 80,
       "lineItems": [
         {
           "id": 500,
@@ -755,8 +755,8 @@
           "name": "Fiber Optic Cable OS2 (per 100m)",
           "description": "Single-mode, 9/125µm, LSZH",
           "quantity": 300,
-          "unitPrice": 72,
-          "basePrice": 72,
+          "unitPrice": 2200,
+          "basePrice": null,
           "rateApplied": null,
           "discount": 0
         },
@@ -766,8 +766,8 @@
           "name": "Fiber Media Converter (SFP)",
           "description": "Gigabit, industrial grade",
           "quantity": 2,
-          "unitPrice": 79,
-          "basePrice": 79,
+          "unitPrice": 265000,
+          "basePrice": null,
           "rateApplied": null,
           "discount": 0
         },
@@ -777,18 +777,20 @@
           "name": "Fiber Splice Closure (48-core)",
           "description": "Dome type, IP68, re-enterable",
           "quantity": 2,
-          "unitPrice": 54,
-          "basePrice": 54,
+          "unitPrice": 56000,
+          "basePrice": null,
           "rateApplied": null,
           "discount": 0
         }
       ],
-      "subtotal": 21866,
+      "subtotal": 1302000,
       "discountAmt": 0,
-      "tax": 3935.88,
-      "total": 25801.88,
+      "tax": 0,
+      "total": 1302000,
       "taxRateUsed": 18,
-      "currency": "$",
+      "currency": "UGX",
+      "bankAccount": null,
+      "includeVat": false,
       "companySnap": {
         "companyName": "Visualtech Solutions",
         "companyAddress": "300 Digital Street, Suite 100, Kampala",
@@ -796,13 +798,14 @@
         "companyEmail": "billing@visualtech.com",
         "companyWebsite": "www.visualtech.com",
         "taxRate": 18,
-        "currency": "$",
+        "currency": "UGX",
         "invoicePrefix": "INV",
         "paymentTerms": 30,
         "defaultNotes": "Payment due within 30 days of invoice date. Thank you for your business!",
-        "lpoTermsEnabled": true
+        "lpoTermsEnabled": true,
+        "bankAccounts": []
       }
     }
   ],
-  "pushedAt": "2026-06-11T13:39:49.508Z"
+  "pushedAt": "2026-06-11T13:41:07.319Z"
 }
