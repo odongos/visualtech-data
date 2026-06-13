@@ -805,7 +805,87 @@
         "lpoTermsEnabled": true,
         "bankAccounts": []
       }
+    },
+    {
+      "number": "INV-002",
+      "revision": "A",
+      "projectContractNo": "",
+      "clientTIN": "",
+      "companyTIN": "",
+      "warrantyPeriod": "1 year",
+      "slaTier": "Standard – Next Business Day (NBD) response",
+      "boqSection": "Installation & Labour",
+      "vatClassification": "Zero Rated (0%)",
+      "materialsTotal": 6945,
+      "labourTotal": 0,
+      "clientName": "Client",
+      "clientEmail": "",
+      "clientPhone": "",
+      "clientAddress": "",
+      "date": "2026-06-13",
+      "dueDate": "2026-07-13",
+      "notes": "Payment due within 30 days of invoice date. Thank you for your business!",
+      "status": "draft",
+      "discountPct": 0,
+      "advancePaymentPct": 0,
+      "lineItems": [
+        {
+          "id": 500,
+          "itemId": 5,
+          "name": "Network Video Recorder (16ch)",
+          "description": "4K NVR, 2 HDD bays, PoE",
+          "quantity": 1,
+          "unitPrice": 590,
+          "basePrice": 590,
+          "rateApplied": null,
+          "discount": 0
+        },
+        {
+          "id": 501,
+          "itemId": 1,
+          "name": "4MP IP Dome Camera",
+          "description": "ELV CCTV, IR, PoE, vandal-proof",
+          "quantity": 8,
+          "unitPrice": 185,
+          "basePrice": 185,
+          "rateApplied": null,
+          "discount": 0
+        },
+        {
+          "id": 502,
+          "itemId": 57,
+          "name": "Outdoor PTZ Camera (40x zoom)",
+          "description": "Starlight, IR 200m",
+          "quantity": 5,
+          "unitPrice": 975,
+          "basePrice": 975,
+          "rateApplied": null,
+          "discount": 0
+        }
+      ],
+      "subtotal": 6945,
+      "discountAmt": 0,
+      "tax": 1250.1,
+      "total": 8195.1,
+      "taxRateUsed": 18,
+      "currency": "UGX",
+      "bankAccount": null,
+      "includeVat": true,
+      "companySnap": {
+        "companyName": "Visualtech Solutions",
+        "companyAddress": "300 Digital Street, Suite 100, Kampala",
+        "companyPhone": "+256 700 409 2024",
+        "companyEmail": "billing@visualtech.com",
+        "companyWebsite": "www.visualtech.com",
+        "taxRate": 18,
+        "currency": "UGX",
+        "invoicePrefix": "INV",
+        "paymentTerms": 30,
+        "defaultNotes": "Payment due within 30 days of invoice date. Thank you for your business!",
+        "lpoTermsEnabled": true,
+        "bankAccounts": []
+      }
     }
   ],
-  "pushedAt": "2026-06-11T13:47:42.068Z"
+  "pushedAt": "2026-06-13T11:15:41.782Z"
 }
