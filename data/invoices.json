@@ -738,6 +738,16 @@
   "invoices": [
     {
       "number": "INV-001",
+      "revision": "A",
+      "projectContractNo": "",
+      "clientTIN": "",
+      "companyTIN": "",
+      "warrantyPeriod": "",
+      "slaTier": "",
+      "boqSection": "",
+      "vatClassification": "Standard Rated (18%)",
+      "materialsTotal": 1302000,
+      "labourTotal": 0,
       "clientName": "Client",
       "clientEmail": "",
       "clientPhone": "",
@@ -970,5 +980,5 @@
       }
     }
   ],
-  "pushedAt": "2026-06-13T11:55:03.804Z"
+  "pushedAt": "2026-06-14T20:15:32.107Z"
 }
