@@ -17,7 +17,7 @@
     {
       "id": 1,
       "name": "4MP IP Dome Camera",
-      "description": "ELV CCTV, IR, PoE, vandal-proof",
+      "description": "CCTV · 4MP 2688×1520, IR 30m, PoE 802.3af, IK10 vandal-proof, IP66, H.265+, WDR 120dB, 2.8mm fixed lens",
       "price": 185
     },
     {
@@ -401,13 +401,13 @@
     {
       "id": 65,
       "name": "Cat6A UTP Cable (305m box)",
-      "description": "Unshielded, 10GbE, TIA-568-C.2",
+      "description": "Structured Cabling · 10GbE/250MHz, LSZH jacket, TIA-568-C.2 / ISO 11801 Cat6A, CMR-rated, 23AWG solid bare copper",
       "price": 185
     },
     {
       "id": 66,
       "name": "Fiber Optic Cable OS2 (per 100m)",
-      "description": "Single-mode, 9/125µm, LSZH",
+      "description": "Structured Cabling · SM 9/125µm LSZH, ITU-T G.657A2, <0.4dB/km @1310nm, armoured/loose-tube options, indoor/outdoor rated",
       "price": 72
     },
     {
@@ -677,7 +677,7 @@
     {
       "id": 111,
       "name": "Site Survey & System Design",
-      "description": "Floor plans, BOQ, SLD, CAD drawings",
+      "description": "Labour · Floor plan take-off, detailed BOQ, single-line diagram (SLD), CAD as-designed drawings, AVIXA D101 documentation",
       "price": 750
     },
     {
@@ -689,7 +689,7 @@
     {
       "id": 113,
       "name": "System Commissioning & Testing",
-      "description": "Full functional test, snag list, sign-off",
+      "description": "Labour · Full functional test per specification, AVIXA F501 performance verification, snag list, test certificates, client sign-off report",
       "price": 490
     },
     {
@@ -733,6 +733,306 @@
       "name": "As-Built Documentation Package",
       "description": "CAD, O&M manuals, warranties, handover",
       "price": 580
+    },
+    {
+      "id": 121,
+      "name": "EVAC Main Control Panel (4-zone)",
+      "description": "EVAC · EN 54-16 compliant, 100V line, battery backup 24hr, rack-mount, priority routing",
+      "price": 3200
+    },
+    {
+      "id": 122,
+      "name": "EVAC Expansion Card (4-zone)",
+      "description": "EVAC · Add-on to main panel, EN 54-16, supports 8-zone total configuration",
+      "price": 890
+    },
+    {
+      "id": 123,
+      "name": "EVAC Amplifier Module (250W)",
+      "description": "EVAC · Class D, 100V line, hot-standby failover, rack-mount 2U, IEC 60268-3",
+      "price": 1450
+    },
+    {
+      "id": 124,
+      "name": "EVAC Firefighter Telephone Handset",
+      "description": "EVAC · EN 54-16 warden station, 2-way audio, illuminated PTT, flush-mount",
+      "price": 185
+    },
+    {
+      "id": 125,
+      "name": "EVAC Warden Intercom Point (WIP)",
+      "description": "EVAC · Remote mic station, EN 54-16, zone selection, key-switch activation, surface-mount",
+      "price": 320
+    },
+    {
+      "id": 126,
+      "name": "EVAC Horn Speaker (ceiling, 6W 100V)",
+      "description": "EVAC · Fire-rated tile, IP21, EN 54-24, white, 6W/3W/1.5W selectable",
+      "price": 58
+    },
+    {
+      "id": 127,
+      "name": "EVAC Horn Speaker (wall, 15W IP54)",
+      "description": "EVAC · Outdoor/corridor, EN 54-24, weather-proof, red/white, 15W 100V",
+      "price": 78
+    },
+    {
+      "id": 128,
+      "name": "EVAC Ceiling Speaker (10W, fire-rated)",
+      "description": "EVAC · EN 54-24, 10W 100V, tile/plasterboard, 90dB SPL @ 1m",
+      "price": 45
+    },
+    {
+      "id": 129,
+      "name": "EVAC Message Pre-recorder",
+      "description": "EVAC · 32 pre-recorded evacuation/alert messages, multilingual, SD card storage",
+      "price": 490
+    },
+    {
+      "id": 130,
+      "name": "EVAC System Battery (24V 40Ah)",
+      "description": "EVAC · Sealed VRLA, 24hr standby + 30min full alarm, IEC 60896-21",
+      "price": 260
+    },
+    {
+      "id": 131,
+      "name": "EVAC FIre Alarm Interface Card",
+      "description": "EVAC · Dry-contact / Volt-free relay input, EN 54-16, triggers zone evacuation",
+      "price": 145
+    },
+    {
+      "id": 132,
+      "name": "EVAC Network Bridge (IP backbone)",
+      "description": "EVAC · LAN interconnect for multi-building EVAC, 100Mbps, fault-tolerant loop",
+      "price": 980
+    },
+    {
+      "id": 133,
+      "name": "EVAC Microphone Console (priority)",
+      "description": "EVAC · All-call/zone paging, live announcement override, rack 1U, backlit keypad",
+      "price": 1350
+    },
+    {
+      "id": 134,
+      "name": "EVAC System Commissioning & Testing",
+      "description": "EVAC · Labour · EN 54-16/24 full functional test, coverage measurement, sign-off report, 2-man team",
+      "price": 650
+    },
+    {
+      "id": 135,
+      "name": "EVAC Annual Maintenance Contract",
+      "description": "EVAC · Service · EN 54-16 mandated annual service, battery test, speaker coverage, report + certificate",
+      "price": 480
+    },
+    {
+      "id": 136,
+      "name": "4K DCI Laser Projector (15,000 lumens)",
+      "description": "Cinema · DCI-P3, 20,000hr laser, 2K/4K switchable, Christie/Barco-class, rack-mount IMB bay",
+      "price": 18500
+    },
+    {
+      "id": 137,
+      "name": "Integrated Media Block (IMB)",
+      "description": "Cinema · DCI content server, 10TB RAID, KDM management, dual Ethernet, DCI 1.3 compliant",
+      "price": 8900
+    },
+    {
+      "id": 138,
+      "name": "Cinema Screen (perforated silver, 6m wide)",
+      "description": "Cinema · 2.39:1 aspect, high-gain 1.2, perforation for behind-screen audio, aluminium frame",
+      "price": 4200
+    },
+    {
+      "id": 139,
+      "name": "Cinema Screen (flat white, 4m wide)",
+      "description": "Cinema · 1.85:1 aspect, gain 1.0, seamless vinyl, motorised masking option",
+      "price": 2100
+    },
+    {
+      "id": 140,
+      "name": "JBL Cinema Surround Speaker (5.1 kit)",
+      "description": "Cinema · L/C/R + 2 surrounds + sub, 100V/low-Z switchable, 90dB, 50Hz–20kHz",
+      "price": 6800
+    },
+    {
+      "id": 141,
+      "name": "Dolby Atmos Immersive Audio Processor",
+      "description": "Cinema · CP850 class, Atmos/DTSX/Auro decode, 16 channels out, RS232/Ethernet, DCI lock",
+      "price": 12400
+    },
+    {
+      "id": 142,
+      "name": "Cinema Subwoofer (18-inch, 1000W, LFE)",
+      "description": "Cinema · 20–80Hz, LFE/0.1 channel, sealed or ported, iso-mount bracket",
+      "price": 1850
+    },
+    {
+      "id": 143,
+      "name": "Cinema Amplifier Rack (4 x 2ch)",
+      "description": "Cinema · 8 channels, 4 x 1000W per pair, 2U rackmount, DSP pre-amp, dante optional",
+      "price": 3400
+    },
+    {
+      "id": 144,
+      "name": "Cinema Automation Controller",
+      "description": "Cinema · Crestron/QSC-class, controls lights, masking, projector, audio via RS232/IP/relay",
+      "price": 2800
+    },
+    {
+      "id": 145,
+      "name": "Cinema Tiered Seating (per seat)",
+      "description": "Cinema · Electric recliner, USB charging, cup holder, velvet finish, APTA compliant",
+      "price": 480
+    },
+    {
+      "id": 146,
+      "name": "3D Silver Screen + Passive Glasses Kit",
+      "description": "Cinema · Silver screen 1.8 gain, passive circular polarised, 50-seat glasses pack",
+      "price": 5600
+    },
+    {
+      "id": 147,
+      "name": "Cinema Acoustic Panel (1200x600mm)",
+      "description": "Cinema · 50mm rockwool, fabric-wrapped, NRC 0.85, ITU-R BS.1116 treatment",
+      "price": 88
+    },
+    {
+      "id": 148,
+      "name": "Cinema Acoustic Bass Trap (corner)",
+      "description": "Cinema · 600mm tri-corner, 50mm rigid fibreglass, NRC >0.9 at 63Hz",
+      "price": 125
+    },
+    {
+      "id": 149,
+      "name": "Cinema Dimming System (6-zone)",
+      "description": "Cinema · DALI/DMX, 0.1% dim floor, scene presets: trailers/feature/cleaning/exit",
+      "price": 1650
+    },
+    {
+      "id": 150,
+      "name": "Cinema 4K Blu-Ray / Media Player",
+      "description": "Cinema · HDMI 2.1 out, HDR10+/DV, 4K@60fps, USB-A media, rack-mount 1U",
+      "price": 890
+    },
+    {
+      "id": 151,
+      "name": "Cinema Design & Acoustic Modelling",
+      "description": "Cinema · Labour · EASE / Odeon acoustic simulation, RT60 analysis, speaker placement, 3D render",
+      "price": 1800
+    },
+    {
+      "id": 152,
+      "name": "Cinema Installation & Commissioning",
+      "description": "Cinema · Labour · Full install, alignment, color calibration (DCI white point), audio EQ, sign-off",
+      "price": 2400
+    },
+    {
+      "id": 153,
+      "name": "KNX Smart Home Controller (IP gateway)",
+      "description": "Home Automation · KNX-IP router, 64 group addresses, ETS6 compatible, DIN rail, 12 months support",
+      "price": 680
+    },
+    {
+      "id": 154,
+      "name": "Z-Wave Plus Hub (wall-mount)",
+      "description": "Home Automation · 232 devices, Z-Wave 700 series, AES-128 encryption, local API, no cloud dependency",
+      "price": 290
+    },
+    {
+      "id": 155,
+      "name": "Control4 Smart Home Controller (EA-3)",
+      "description": "Home Automation · Control4 EA-3, 4 rooms, AV/lighting/climate, Zigbee + IP, 2-driver licence",
+      "price": 1850
+    },
+    {
+      "id": 156,
+      "name": "Lutron Caseta Smart Dimmer (single)",
+      "description": "Home Automation · Neutral-wire optional, 150–600W LED/incandescent, Clear-Connect RF, FCCID",
+      "price": 78
+    },
+    {
+      "id": 157,
+      "name": "Lutron RadioRA 3 Dimmer (multi-zone)",
+      "description": "Home Automation · 5-room kit, Caseta Pro bridge, GRAFIK Eye QS compatible, 0.1% dim floor",
+      "price": 1240
+    },
+    {
+      "id": 158,
+      "name": "Smart Thermostat (multi-zone, Modbus)",
+      "description": "Home Automation · 4-pipe FCU control, occupancy sensor, weekly scheduling, remote access",
+      "price": 320
+    },
+    {
+      "id": 159,
+      "name": "Smart Motorised Blinds (per window)",
+      "description": "Home Automation · 240V tubular motor, RF/KNX/Z-Wave, position feedback, battery backup",
+      "price": 320
+    },
+    {
+      "id": 160,
+      "name": "Smart Irrigation Controller (8-zone)",
+      "description": "Home Automation · Weather API, soil sensor input, app scheduling, 24V solenoid output",
+      "price": 245
+    },
+    {
+      "id": 161,
+      "name": "Smart Doorbell Camera (4K, HDR)",
+      "description": "Home Automation · 2-way audio, package detection, Alexa/Google, flush-mount, PoE or battery",
+      "price": 185
+    },
+    {
+      "id": 162,
+      "name": "Smart Home Touchpanel (7-inch, wall-flush)",
+      "description": "Home Automation · 1024x600 IPS, PoE, Control4/Crestron/KNX driver, 5yr warranty",
+      "price": 750
+    },
+    {
+      "id": 163,
+      "name": "Smart Home Touchpanel (10-inch, tabletop)",
+      "description": "Home Automation · 1920x1200 IPS, wireless charging, NFC, custom UI, portrait/landscape",
+      "price": 1150
+    },
+    {
+      "id": 164,
+      "name": "Smart Home App (custom white-label)",
+      "description": "Home Automation · iOS/Android, 5 user licences, push notifications, geofencing, yearly SLA",
+      "price": 2400
+    },
+    {
+      "id": 165,
+      "name": "Multi-Room Audio Amplifier (8-zone, 100W)",
+      "description": "Home Automation · AV · 8x50W per zone, app + keypad, Spotify/Tidal/AirPlay2, RCA/digital in",
+      "price": 1380
+    },
+    {
+      "id": 166,
+      "name": "In-Ceiling Audio Speaker Pair (6.5-inch)",
+      "description": "Home Automation · AV · 2-way, 100W RMS, 8Ω, paintable grille, EN 60268-5",
+      "price": 145
+    },
+    {
+      "id": 167,
+      "name": "Outdoor Landscape Speaker Pair (IP65)",
+      "description": "Home Automation · AV · 2-way, 120W peak, rock/planter style, UV-resistant, stake mount",
+      "price": 290
+    },
+    {
+      "id": 168,
+      "name": "Smart Home Design & Programming",
+      "description": "Home Automation · Labour · KNX ETS6 / Control4 / Crestron SIMPL design, scene programming, commissioning",
+      "price": 1200
+    },
+    {
+      "id": 169,
+      "name": "Smart Home Annual Support Contract",
+      "description": "Home Automation · Service · Remote monitoring, firmware updates, 2 on-site visits, 8hr response",
+      "price": 850
+    },
+    {
+      "id": 170,
+      "name": "Energy Management Dashboard (licence)",
+      "description": "Home Automation · Cloud dashboard, per-circuit monitoring, solar/battery integration, API export",
+      "price": 480
     }
   ],
   "invoices": [
@@ -1060,5 +1360,5 @@
       }
     }
   ],
-  "pushedAt": "2026-06-14T20:16:45.393Z"
+  "pushedAt": "2026-06-14T20:51:55.402Z"
 }
