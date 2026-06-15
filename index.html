@@ -34554,6 +34554,11 @@ var XLSX={};function make_xlsx_lib(a){a.version="0.18.5",a.style_version="1.2.0"
             <div class="card-title"><div class="card-title-icon">📦</div> Products & Services</div>
             <div class="card-subtitle" id="itemsCountLabel">0 items in library</div>
           </div>
+          <button class="btn btn-outline btn-sm no-print" id="restoreCatalogBtn"
+            style="border-color:#c9922e;color:#c9922e;font-size:0.78rem;padding:6px 14px;"
+            title="Re-merges all 170 built-in products (EVAC, Cinema, Home Automation etc.) without deleting custom items">
+            🔄 Restore Built-in Products
+          </button>
         </div>
         <div class="form-grid" style="margin-bottom:20px; background:var(--gray-50); border:1.5px dashed var(--gray-200); border-radius:var(--radius-md); padding:16px;">
           <div class="form-group"><label>Item Name</label><input type="text" id="itemName" placeholder="e.g., 4K PTZ Camera"></div>
@@ -34889,10 +34894,20 @@ var XLSX={};function make_xlsx_lib(a){a.version="0.18.5",a.style_version="1.2.0"
           </div>
         </div>
       </div>
-      <div class="actions-row" style="margin-top:12px;">
+      <div class="actions-row" style="margin-top:12px;flex-wrap:wrap;gap:8px;">
         <button class="btn btn-outline" id="ghPullBtn">⬇️ Pull from GitHub</button>
         <button class="btn btn-outline" id="ghPushBtn">⬆️ Push to GitHub</button>
         <button class="btn btn-primary" id="ghConnectBtn">🔗 Connect &amp; Sync</button>
+        <button class="btn btn-outline" id="ghRestoreCatalogBtn"
+          style="border-color:#c9922e;color:#c9922e;"
+          title="Re-merges all 170 built-in products into the library without deleting your custom items">
+          🔄 Restore Built-in Products
+        </button>
+      </div>
+      <div style="font-size:0.72rem;color:var(--gray-400);margin-top:8px;line-height:1.6;padding:8px 12px;background:#fffbeb;border:1px solid #f6d860;border-radius:6px;">
+        <strong>💡 After a Pull from GitHub:</strong> Click <strong>Restore Built-in Products</strong>
+        to re-merge EVAC, Cinema &amp; Home Automation items (IDs 121–170) into your library.
+        Your custom products and invoices are never deleted.
       </div>
       <div id="ghLog" style="display:none;margin-top:12px;background:var(--gray-50);border:1px solid var(--gray-200);border-radius:var(--radius-sm);padding:10px 14px;font-size:0.75rem;font-family:monospace;color:var(--gray-600);max-height:120px;overflow-y:auto;"></div>
     </div>
@@ -36375,6 +36390,16 @@ function init() {
   document.getElementById('ghConnectBtn').addEventListener('click', ghConnect);
   document.getElementById('ghPushBtn').addEventListener('click', ghPushData);
   document.getElementById('ghPullBtn').addEventListener('click', ghPullData);
+  document.getElementById('ghRestoreCatalogBtn')?.addEventListener('click', () => {
+    if (confirm('Re-add all 170 built-in products (EVAC, Cinema, Home Automation etc.) to your library?\n\nYour custom products and all saved invoices are NOT affected.')) {
+      restoreDefaultCatalog(false);
+    }
+  });
+  document.getElementById('restoreCatalogBtn')?.addEventListener('click', () => {
+    if (confirm('Re-add all 170 built-in products (EVAC, Cinema, Home Automation etc.) to your library?\n\nYour custom products and all saved invoices are NOT affected.')) {
+      restoreDefaultCatalog(false);
+    }
+  });
   document.getElementById('ghToggleToken').addEventListener('click', () => {
     const inp = document.getElementById('ghToken');
     const btn = document.getElementById('ghToggleToken');
@@ -36659,21 +36684,87 @@ async function ghPullData() {
     const json = JSON.parse(decodeURIComponent(escape(atob(file.content.replace(/\n/g, '')))));
 
     if (json.invoices)  { savedInvoices.length = 0; json.invoices.forEach(i => savedInvoices.push(i)); }
-    if (json.catalog)   { itemsCatalog.length  = 0; json.catalog.forEach(i  => itemsCatalog.push(i));  }
+    if (json.catalog) {
+      // Load catalog from GitHub, then merge in any DEFAULT_CATALOG items not present
+      // This ensures new built-in products added in app updates always appear,
+      // even when an older catalog snapshot is stored on GitHub.
+      itemsCatalog.length = 0;
+      json.catalog.forEach(i => itemsCatalog.push(i));
+
+      const existingIds = new Set(itemsCatalog.map(i => i.id));
+      let merged = 0;
+      DEFAULT_CATALOG.forEach(defItem => {
+        if (!existingIds.has(defItem.id)) {
+          // New built-in item not in GitHub snapshot — add it
+          itemsCatalog.push(JSON.parse(JSON.stringify(defItem)));
+          merged++;
+        } else {
+          // Update enriched description for default items the user hasn't renamed
+          const saved = itemsCatalog.find(i => i.id === defItem.id);
+          if (saved && saved.name === defItem.name && saved.description !== defItem.description) {
+            saved.description = defItem.description;
+            merged++;
+          }
+        }
+      });
+      itemsCatalog.sort((a, b) => a.id - b.id);
+      if (merged > 0) ghLog(`✓ Merged ${merged} updated/new item(s) from built-in catalog`, 'success');
+    }
     if (json.settings)  { Object.assign(appSettings, json.settings); applySettingsToUI(); }
 
     _origLsSave(); // persist locally without immediately re-pushing what we just pulled
     updateDashboard();
     renderSavedInvoicesList();
+    renderItemsTable();
+    refreshItemDropdown();
     genInvoiceNumber();
+    // Update nextItemId after merge
+    const maxCatId = Math.max(...itemsCatalog.map(i => i.id));
+    nextItemId = Math.max(nextItemId, maxCatId + 1);
     ghSetStatus('⬤ Synced ✓', 'green');
-    ghLog(`✓ Pulled ${savedInvoices.length} invoice(s) from GitHub`, 'success');
+    ghLog(`✓ Pulled ${savedInvoices.length} invoice(s) + ${itemsCatalog.length} catalog items from GitHub`, 'success');
     toast('Data pulled from GitHub ✓', 'success');
   } catch(err) {
     ghSetStatus('⬤ Error', 'red');
     ghLog(`✗ Pull failed: ${err.message}`, 'error');
     toast(`GitHub pull failed: ${err.message}`, 'error');
   }
+}
+
+function restoreDefaultCatalog(silent) {
+  const existingIds = new Set(itemsCatalog.map(i => i.id));
+  let added = 0, updated = 0;
+
+  DEFAULT_CATALOG.forEach(defItem => {
+    if (!existingIds.has(defItem.id)) {
+      itemsCatalog.push(JSON.parse(JSON.stringify(defItem)));
+      added++;
+    } else {
+      // Update description if name matches (not a user-renamed item)
+      const saved = itemsCatalog.find(i => i.id === defItem.id);
+      if (saved && saved.name === defItem.name && saved.description !== defItem.description) {
+        saved.description = defItem.description;
+        updated++;
+      }
+    }
+  });
+
+  itemsCatalog.sort((a, b) => a.id - b.id);
+
+  // Update nextItemId
+  const maxId = Math.max(...itemsCatalog.map(i => i.id));
+  nextItemId = Math.max(nextItemId, maxId + 1);
+
+  LS.save();
+  renderItemsTable();
+  refreshItemDropdown();
+
+  const msg = `✅ Built-in catalog restored: ${added} item(s) added, ${updated} description(s) updated.`;
+  if (!silent) {
+    toast(msg, 'success');
+    ghLog(msg, 'success');
+  }
+  return { added, updated };
 }
 
 async function ghConnect() {
