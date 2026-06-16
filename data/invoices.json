@@ -6,7 +6,7 @@
     "companyEmail": "billing@visualtech.com",
     "companyWebsite": "www.visualtech.com",
     "taxRate": 18,
-    "currency": "$",
+    "currency": "UGX",
     "invoicePrefix": "INV",
     "paymentTerms": 30,
     "defaultNotes": "Payment due within 30 days of invoice date. Thank you for your business!",
@@ -1378,7 +1378,7 @@
       "clientAddress": "",
       "date": "2026-06-16",
       "dueDate": "2026-07-16",
-      "notes": "Payment due within 30 days of invoice date. Thank you for your business!",
+      "notes": "Payment due within 30 days of invoice date. Thank you for your business!\n\nExchange Rate used: 1 USD = 3,820.00 UGX (source: xe.com, set on Jun 16, 2026).",
       "status": "draft",
       "discountPct": 0,
       "advancePaymentPct": 0,
@@ -1423,7 +1423,7 @@
       "tax": 0,
       "total": 3048360,
       "taxRateUsed": 18,
-      "currency": "$",
+      "currency": "UGX",
       "bankAccount": null,
       "includeVat": false,
       "companySnap": {
@@ -1433,7 +1433,7 @@
         "companyEmail": "billing@visualtech.com",
         "companyWebsite": "www.visualtech.com",
         "taxRate": 18,
-        "currency": "$",
+        "currency": "UGX",
         "invoicePrefix": "INV",
         "paymentTerms": 30,
         "defaultNotes": "Payment due within 30 days of invoice date. Thank you for your business!",
@@ -1443,5 +1443,5 @@
       }
     }
   ],
-  "pushedAt": "2026-06-16T09:51:42.707Z"
+  "pushedAt": "2026-06-16T12:45:08.402Z"
 }
