@@ -1358,7 +1358,99 @@
         "bankAccounts": [],
         "activeExchangeRate": 3700
       }
+    },
+    {
+      "number": "INV-006",
+      "revision": "A",
+      "projectContractNo": "",
+      "clientTIN": "",
+      "companyTIN": "",
+      "warrantyPeriod": "1 year",
+      "slaTier": "",
+      "boqSection": "",
+      "vatClassification": "Standard Rated (18%)",
+      "materialsTotal": 7200700,
+      "labourTotal": 0,
+      "clientName": "Micheal",
+      "clientEmail": "",
+      "clientPhone": "",
+      "clientAddress": "",
+      "date": "2026-06-16",
+      "dueDate": "2026-07-16",
+      "notes": "Payment due within 30 days of invoice date. Thank you for your business!\n\nExchange Rate used: 1 USD = 3,820.00 UGX (source: xe.com, set on Jun 16, 2026).",
+      "status": "draft",
+      "discountPct": 0,
+      "advancePaymentPct": 0,
+      "lineItems": [
+        {
+          "id": 503,
+          "itemId": 1,
+          "name": "4MP IP Dome Camera",
+          "description": "CCTV · 4MP 2688×1520, IR 30m, PoE 802.3af, IK10 vandal-proof, IP66, H.265+, WDR 120dB, 2.8mm fixed lens",
+          "quantity": 5,
+          "unitPrice": 706700,
+          "basePrice": 185,
+          "rateApplied": 3820,
+          "discount": 0
+        },
+        {
+          "id": 504,
+          "itemId": 1,
+          "name": "4MP IP Dome Camera",
+          "description": "CCTV · 4MP 2688×1520, IR 30m, PoE 802.3af, IK10 vandal-proof, IP66, H.265+, WDR 120dB, 2.8mm fixed lens",
+          "quantity": 1,
+          "unitPrice": 706700,
+          "basePrice": 185,
+          "rateApplied": 3820,
+          "discount": 0
+        },
+        {
+          "id": 505,
+          "itemId": 5,
+          "name": "Network Video Recorder (16ch)",
+          "description": "4K NVR, 2 HDD bays, PoE",
+          "quantity": 1,
+          "unitPrice": 2253800,
+          "basePrice": 590,
+          "rateApplied": 3820,
+          "discount": 0
+        },
+        {
+          "id": 508,
+          "itemId": 65,
+          "name": "Cat6A UTP Cable (305m box)",
+          "description": "Structured Cabling · 10GbE/250MHz, LSZH jacket, TIA-568-C.2 / ISO 11801 Cat6A, CMR-rated, 23AWG solid bare copper",
+          "quantity": 1,
+          "unitPrice": 706700,
+          "basePrice": 185,
+          "rateApplied": 3820,
+          "discount": 0
+        }
+      ],
+      "subtotal": 7200700,
+      "discountAmt": 0,
+      "tax": 0,
+      "total": 7200700,
+      "taxRateUsed": 18,
+      "currency": "UGX",
+      "bankAccount": null,
+      "includeVat": false,
+      "companySnap": {
+        "companyName": "Visualtech Solutions",
+        "companyAddress": "300 Digital Street, Suite 100, Kampala",
+        "companyPhone": "+256 700 409 2024",
+        "companyEmail": "billing@visualtech.com",
+        "companyWebsite": "www.visualtech.com",
+        "taxRate": 18,
+        "currency": "UGX",
+        "invoicePrefix": "INV",
+        "paymentTerms": 30,
+        "defaultNotes": "Payment due within 30 days of invoice date. Thank you for your business!",
+        "lpoTermsEnabled": true,
+        "bankAccounts": [],
+        "activeExchangeRate": 3700
+      }
     }
   ],
-  "pushedAt": "2026-06-16T12:46:31.865Z"
+  "pushedAt": "2026-06-16T14:05:33.187Z"
 }
