@@ -6,12 +6,13 @@
     "companyEmail": "billing@visualtech.com",
     "companyWebsite": "www.visualtech.com",
     "taxRate": 18,
-    "currency": "UGX",
+    "currency": "$",
     "invoicePrefix": "INV",
     "paymentTerms": 30,
     "defaultNotes": "Payment due within 30 days of invoice date. Thank you for your business!",
     "lpoTermsEnabled": true,
-    "bankAccounts": []
+    "bankAccounts": [],
+    "activeExchangeRate": 3700
   },
   "catalog": [
     {
@@ -1360,5 +1361,5 @@
       }
     }
   ],
-  "pushedAt": "2026-06-15T10:33:03.051Z"
+  "pushedAt": "2026-06-16T09:46:55.943Z"
 }
