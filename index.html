@@ -34590,6 +34590,8 @@ var XLSX={};function make_xlsx_lib(a){a.version="0.18.5",a.style_version="1.2.0"
             <option value="evac">🚨 EVAC</option>
             <option value="cinema">🎬 Cinema</option>
             <option value="home automation">🏠 Home Automation</option>
+            <option value="hik">📷 Hikvision</option>
+            <option value="storage">💾 Storage / Drives</option>
             <option value="services">🔧 Services</option>
             <option value="labour">👷 Labour</option>
           </select>
@@ -34664,13 +34666,46 @@ var XLSX={};function make_xlsx_lib(a){a.version="0.18.5",a.style_version="1.2.0"
           <div class="form-group">
             <label>Currency Symbol</label>
             <select id="currencySymbol">
-              <option value="$">$ – USD</option>
+              <option value="$">$ – USD (US Dollar)</option>
               <option value="UGX">UGX – Uganda Shilling</option>
-              <option value="€">€ – Euro</option>
-              <option value="£">£ – GBP</option>
-              <option value="KSh">KSh – Kenyan Shilling</option>
-              <option value="₦">₦ – Naira</option>
+              <option value="€">€ – EUR (Euro)</option>
+              <option value="£">£ – GBP (British Pound)</option>
+              <option value="KSh">KSh – KES (Kenyan Shilling)</option>
+              <option value="₦">₦ – NGN (Nigerian Naira)</option>
+              <option value="TZS">TZS – Tanzanian Shilling</option>
+              <option value="ZAR">ZAR – South African Rand</option>
+              <option value="AED">AED – UAE Dirham</option>
+              <option value="SAR">SAR – Saudi Riyal</option>
+              <option value="RWF">RWF – Rwandan Franc</option>
+              <option value="ETB">ETB – Ethiopian Birr</option>
+              <option value="CNY">¥ – CNY (Chinese Yuan)</option>
+              <option value="INR">₹ – INR (Indian Rupee)</option>
             </select>
+
+            <!-- Inline exchange rate input — shown when currency ≠ USD -->
+            <div id="inlineExchangeRateWrap" style="display:none;margin-top:10px;padding:12px 14px;
+              background:linear-gradient(135deg,#fffbeb,#fff8e1);
+              border:1.5px solid #f6d860;border-radius:8px;">
+              <div style="font-size:0.75rem;font-weight:700;color:#92600a;margin-bottom:8px;display:flex;align-items:center;gap:6px;">
+                💱 Exchange Rate
+                <span style="font-weight:400;color:var(--gray-400);">(USD base → selected currency)</span>
+              </div>
+              <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+                <span style="font-size:0.82rem;color:var(--gray-600);white-space:nowrap;">1 USD =</span>
+                <input type="number" id="inlineExchangeRate" placeholder="e.g. 3700"
+                  step="any" min="0"
+                  style="width:140px;font-size:0.95rem;font-weight:700;border-color:#f6d860;
+                  background:white;text-align:center;">
+                <span id="inlineExchangeCurrLabel" style="font-size:0.85rem;font-weight:700;color:var(--primary);min-width:40px;"></span>
+                <button id="applyInlineRateBtn" class="btn btn-sm"
+                  style="background:#c9922e;color:white;border:none;border-radius:8px;padding:6px 14px;font-weight:700;white-space:nowrap;">
+                  ✅ Apply
+                </button>
+                <a href="https://www.xe.com/currencyconverter/" target="_blank"
+                  style="font-size:0.72rem;color:var(--info);">Check live rate ↗</a>
+              </div>
+              <div id="inlineRateStatus" style="font-size:0.72rem;margin-top:6px;color:var(--gray-400);"></div>
+            </div>
           </div>
           <div class="form-group">
             <label>Invoice Prefix</label>
@@ -35109,7 +35144,76 @@ const DEFAULT_CATALOG = [
   { id:167, name:"Outdoor Landscape Speaker Pair (IP65)", description:"Home Automation · AV · 2-way, 120W peak, rock/planter style, UV-resistant, stake mount", price:290.00 },
   { id:168, name:"Smart Home Design & Programming", description:"Home Automation · Labour · KNX ETS6 / Control4 / Crestron SIMPL design, scene programming, commissioning", price:1200.00 },
   { id:169, name:"Smart Home Annual Support Contract", description:"Home Automation · Service · Remote monitoring, firmware updates, 2 on-site visits, 8hr response", price:850.00 },
-  { id:170, name:"Energy Management Dashboard (licence)", description:"Home Automation · Cloud dashboard, per-circuit monitoring, solar/battery integration, API export", price:480.00 }
+  { id:170, name:"Energy Management Dashboard (licence)", description:"Home Automation · Cloud dashboard, per-circuit monitoring, solar/battery integration, API export", price:480.00 },
+
+  // ========== CARE IMAGING SOLUTIONS — STORAGE (UGX) ==========
+  { id:215, name:"HDD 500GB Desktop", description:"Storage · Care Imaging Solutions · 500GB Desktop Hard Drive", price:50000.00 },
+  { id:216, name:"HDD 1TB WD Surveillance", description:"Storage · WD Purple/Purple Pro · 1TB Surveillance Hard Drive, 24/7 rated", price:110000.00 },
+  { id:217, name:"HDD 2TB WD Surveillance", description:"Storage · WD Purple/Purple Pro · 2TB Surveillance Hard Drive, 24/7 rated", price:150000.00 },
+  { id:218, name:"HDD 4TB WD Surveillance", description:"Storage · WD Purple/Purple Pro · 4TB Surveillance Hard Drive, 24/7 rated", price:235000.00 },
+  { id:219, name:"HDD 6TB WD Surveillance", description:"Storage · WD Purple/Purple Pro · 6TB Surveillance Hard Drive, 24/7 rated", price:370000.00 },
+  { id:220, name:"HDD 8TB WD Surveillance", description:"Storage · WD Purple/Purple Pro · 8TB Surveillance Hard Drive, 24/7 rated", price:450000.00 },
+  { id:221, name:"HDD 10TB WD Surveillance", description:"Storage · WD Purple/Purple Pro · 10TB Surveillance Hard Drive, 24/7 rated", price:640000.00 },
+  { id:222, name:"HDD 12TB WD Surveillance", description:"Storage · WD Purple/Purple Pro · 12TB Surveillance Hard Drive, 24/7 rated", price:750000.00 },
+  { id:223, name:"Memory Card 32GB SanDisk", description:"Storage · SanDisk · 32GB MicroSD / SD Memory Card", price:16000.00 },
+  { id:224, name:"Memory Card 64GB SanDisk", description:"Storage · SanDisk · 64GB MicroSD / SD Memory Card", price:20000.00 },
+  { id:225, name:"Memory Card 128GB SanDisk", description:"Storage · SanDisk · 128GB MicroSD / SD Memory Card", price:35000.00 },
+  { id:226, name:"Memory Card 256GB SanDisk", description:"Storage · SanDisk · 256GB MicroSD / SD Memory Card", price:65000.00 },
+  { id:227, name:"Flash Disk 32GB SanDisk", description:"Storage · SanDisk · 32GB USB Flash Drive / Thumb Drive", price:16000.00 },
+  { id:228, name:"Flash Disk 64GB SanDisk", description:"Storage · SanDisk · 64GB USB Flash Drive / Thumb Drive", price:20000.00 },
+  { id:229, name:"Flash Disk 128GB SanDisk", description:"Storage · SanDisk · 128GB USB Flash Drive / Thumb Drive", price:35000.00 },
+  { id:230, name:"SSD 256GB 2.5 SATA", description:"Storage · 2.5-inch SATA SSD · 256GB, 550MB/s read, laptop/desktop compatible", price:80000.00 },
+  { id:231, name:"SSD 512GB 2.5 SATA", description:"Storage · 2.5-inch SATA SSD · 512GB, 550MB/s read, laptop/desktop compatible", price:110000.00 },
+  { id:232, name:"SSD 1TB 2.5 SATA", description:"Storage · 2.5-inch SATA SSD · 1TB, 550MB/s read, laptop/desktop compatible", price:210000.00 },
+  { id:233, name:"SSD 256GB M.2 NVMe", description:"Storage · M.2 2280 NVMe SSD · 256GB, PCIe Gen3, up to 2400MB/s read", price:80000.00 },
+  { id:234, name:"SSD 512GB M.2 NVMe", description:"Storage · M.2 2280 NVMe SSD · 512GB, PCIe Gen3, up to 2400MB/s read", price:110000.00 },
+  { id:235, name:"SSD 1TB M.2 NVMe", description:"Storage · M.2 2280 NVMe SSD · 1TB, PCIe Gen3, up to 3500MB/s read", price:210000.00 },
+
+  // ========== HIKVISION PRICE LIST (UGX) ==========
+  { id:171, name:"HIK DVR 4CH 1080P (DS-7204HGHI-M1)", description:"CCTV · HIK VISION Analog DVR · 4CH HGHI 1080P · PN: 300229094", price:120000.00 },
+  { id:172, name:"HIK DVR 8CH 1080P (DS-7208HGHI-M1)", description:"CCTV · HIK VISION Analog DVR · 8CH HGHI 1080P · PN: 300229095", price:150000.00 },
+  { id:173, name:"HIK DVR 16CH 1080P (DS-7216HGHI-M1)", description:"CCTV · HIK VISION Analog DVR · 16CH HGHI 1080P · PN: 300228915", price:255000.00 },
+  { id:174, name:"HIK DVR 32CH 1080P (DS-7232HGHI-M2)", description:"CCTV · HIK VISION Analog DVR · 32CH HGHI 1080P · PN: 300228511", price:830000.00 },
+  { id:175, name:"HIK DVR 4CH 4MP (IDS-7204HQHI-M1/S)", description:"CCTV · HIK VISION Analog DVR · 4CH HQHI 4MP · PN: 300226826", price:200000.00 },
+  { id:176, name:"HIK DVR 8CH 4MP (IDS-7208HQHI-M1/S)", description:"CCTV · HIK VISION Analog DVR · 8CH HQHI 4MP · PN: 300226811", price:300000.00 },
+  { id:177, name:"HIK DVR 16CH 4MP (IDS-7216HQHI-M2/S)", description:"CCTV · HIK VISION Analog DVR · 16CH HQHI 4MP · PN: 300887546", price:520000.00 },
+  { id:178, name:"HIK DVR 16CH 5MP (IDS-7216HQHI-M1/XT)", description:"CCTV · HIK VISION Analog DVR · 16CH HQHI 5MP AcuSense", price:530000.00 },
+  { id:179, name:"HIK DVR 32CH 5MP (IDS-7232HQHI-M2/XT)", description:"CCTV · HIK VISION Analog DVR · 32CH HQHI 3K/5MP · PN: 300229177", price:1000000.00 },
+  { id:180, name:"HIK DVR 32CH 4MP (IDS-7232HQHI-M2/S)", description:"CCTV · HIK VISION Analog DVR · 32CH HQHI 4MP · PN: 300227850", price:950000.00 },
+  { id:181, name:"HIK ECO Dome w/ Audio (Smart Hybrid)", description:"CCTV · HIK VISION Analog ECO Dome · Smart Hybrid, built-in audio · PN: 327800604", price:55000.00 },
+  { id:182, name:"HIK ECO Bullet w/ Audio (Smart Hybrid)", description:"CCTV · HIK VISION Analog ECO Bullet · Smart Hybrid, built-in audio · PN: 327800603", price:55000.00 },
+  { id:183, name:"HIK ECO 3K Dome w/ Audio (DS-2CE76KF0T-LPFS)", description:"CCTV · HIK VISION ECO 3K Dome · Smart Hybrid, audio · PN: 327801040", price:85000.00 },
+  { id:184, name:"HIK ECO 3K Bullet w/ Audio (DS-2CE16KF0T-LPFS)", description:"CCTV · HIK VISION ECO 3K Bullet · Smart Hybrid, audio · PN: 327801039", price:85000.00 },
+  { id:185, name:"HIK ColorVU 20m Dome w/ Audio Silver (DS-2CE70DF0T-LMFS)", description:"CCTV · HIK VISION Full Color 20m Dome · audio, silver · PN: 327800634", price:80000.00 },
+  { id:186, name:"HIK ColorVU 20m Bullet w/ Audio Silver (DS-2CE10DF0T-LMFS)", description:"CCTV · HIK VISION Full Color 20m Bullet · audio, silver · PN: 327800631", price:80000.00 },
+  { id:187, name:"HIK ColorVU 20m Dome w/ Audio Gold (DS-2CE70DF3T-LPFS)", description:"CCTV · HIK VISION Full Color 20m Dome · audio, gold strip · PN: 327800919", price:95000.00 },
+  { id:188, name:"HIK ColorVU 20m Bullet w/ Audio Gold (DS-2CE10DF3T-LPFS)", description:"CCTV · HIK VISION Full Color 20m Bullet · audio, gold strip · PN: 327800914", price:95000.00 },
+  { id:189, name:"HIK ColorVU 40m Dome w/ Audio Gold", description:"CCTV · HIK VISION Full Color 40m Dome · audio, gold strip · PN: 327800923", price:110000.00 },
+  { id:190, name:"HIK ColorVU 40m Bullet w/ Audio Gold", description:"CCTV · HIK VISION Full Color 40m Bullet · audio, gold strip · PN: 327800918", price:110000.00 },
+  { id:191, name:"HIK 3K 20m Dome Full Color (DS-2CE70KF0T-LPFS)", description:"CCTV · HIK VISION 3K 5MP Full Color 20m Dome · PN: 327800901", price:95000.00 },
+  { id:192, name:"HIK 3K 20m Bullet Full Color", description:"CCTV · HIK VISION 3K 5MP Full Color 20m Bullet", price:95000.00 },
+  { id:193, name:"HIK 3K 40m Dome Full Color (DS-2CE72KF0T-LFS)", description:"CCTV · HIK VISION 3K 5MP Full Color 40m Dome · PN: 327800905", price:125000.00 },
+  { id:194, name:"HIK 3K 40m Bullet Full Color (DS-2CE12KF0T-LFS)", description:"CCTV · HIK VISION 3K 5MP Full Color 40m Bullet · PN: 327800900", price:125000.00 },
+  { id:195, name:"HIK ColorVU 40m Bullet w/ Siren (DS-2CE12DF3T-PIRXOS)", description:"CCTV · HIK VISION Full Color 40m Bullet · siren, strobe light · PN: 300513066", price:170000.00 },
+  { id:196, name:"HIK NVR 4CH All-PoE (DS-7104NI-Q1/4P/M)", description:"CCTV · HIK VISION IP NVR · 4CH all-PoE · PN: 303618108", price:260000.00 },
+  { id:197, name:"HIK NVR 8CH All-PoE (DS-7180NI-Q1/8P/M)", description:"CCTV · HIK VISION IP NVR 7100 Series · 8CH all-PoE · PN: 303618106", price:350000.00 },
+  { id:198, name:"HIK NVR 8CH 7600 All-PoE (DS-7608NI-Q2/8P)", description:"CCTV · HIK VISION IP NVR 7600 Series · 8CH all-PoE · PN: 303616549", price:530000.00 },
+  { id:199, name:"HIK NVR 16CH All-PoE (DS-7616NI-Q2/16P)", description:"CCTV · HIK VISION IP NVR · 16CH all-PoE · PN: 303616533", price:640000.00 },
+  { id:200, name:"HIK NVR 32CH K2 16-PoE (DS-7632NXI-K2/16P)", description:"CCTV · HIK VISION IP NVR 7600 Series · 32CH 16-port PoE · PN: 303616127", price:1050000.00 },
+  { id:201, name:"HIK NVR 32CH K4 16-PoE (DS-7732NXI-K4/16P)", description:"CCTV · HIK VISION IP NVR 7700 Series · 32CH 16-port PoE · PN: 303616156", price:1400000.00 },
+  { id:202, name:"HIK IP 2MP Dome Full Color w/ Audio (DS-2CD1327G2H-LIU)", description:"CCTV · HIK VISION IP 2MP Full Color Dome · built-in audio · PN: 311325400", price:150000.00 },
+  { id:203, name:"HIK IP 2MP Bullet Full Color w/ Audio (DS-2CD1027G2H-LIU)", description:"CCTV · HIK VISION IP 2MP Full Color Bullet · built-in audio · PN: 311325409", price:150000.00 },
+  { id:204, name:"HIK IP 4MP Dome Full Color w/ Audio (DS-2CD1347G2H-LIU)", description:"CCTV · HIK VISION IP 4MP Full Color Dome · built-in audio · PN: 311325148", price:195000.00 },
+  { id:205, name:"HIK IP 4MP Bullet Full Color w/ Audio (DS-2CD1047G2H-LIU)", description:"CCTV · HIK VISION IP 4MP Full Color Bullet · built-in audio · PN: 311326491", price:195000.00 },
+  { id:206, name:"HIK IP 2MP Dome Smart Hybrid w/ Audio (DS-2CD1123G2-LIU)", description:"CCTV · HIK VISION IP 2MP Smart Hybrid Dome · audio · PN: 311322060", price:135000.00 },
+  { id:207, name:"HIK IP 2MP Bullet Smart Hybrid w/ Audio (DS-2CD1023G2-LIU)", description:"CCTV · HIK VISION IP 2MP Smart Hybrid Bullet · audio · PN: 311322025", price:135000.00 },
+  { id:208, name:"HIK IP 4MP Dome Smart Hybrid w/ Audio (DS-2CD1143G2-LIU)", description:"CCTV · HIK VISION IP 4MP Smart Hybrid Dome · audio", price:180000.00 },
+  { id:209, name:"HIK IP 4MP Bullet Smart Hybrid w/ Audio (DS-2CD1043G2-LIU)", description:"CCTV · HIK VISION IP 4MP Smart Hybrid Bullet · audio", price:180000.00 },
+  { id:210, name:"HIK PTZ Analog 2MP 25x Speed Dome (DS-2AE4225TI-D)", description:"CCTV · HIK VISION Analog PTZ 2MP 25x · Speed Dome · PN: 301205267", price:750000.00 },
+  { id:211, name:"HIK PTZ IP Mini 4MP 4x (DS-2DE2A40IW)", description:"CCTV · HIK VISION IP Mini PTZ 4MP 4x zoom · PN: 327000399", price:380000.00 },
+  { id:212, name:"HIK PTZ IP 2MP 15x ColorVU Speed Dome (DS-2SE4C215MEG-E)", description:"CCTV · HIK VISION IP PTZ 2MP 15x ColorVU · PN: 327000904", price:1050000.00 },
+  { id:213, name:"HIK PTZ IP 2MP 25x ColorVU Speed Dome (DS-2SE4C225MWG-E)", description:"CCTV · HIK VISION IP PTZ 2MP 25x ColorVU · PN: 327000906", price:1100000.00 },
+  { id:214, name:"HIK PTZ IP Mini 4MP ColorVU (DS-2DE3A40BW-DE)", description:"CCTV · HIK VISION IP Mini PTZ 4MP ColorVU · PN: 327000117", price:1050000.00 }
 ];
 
 // ══════════════════════════════════════════════════════════════
@@ -35429,6 +35533,18 @@ function updateItemType(id, val) {
   if (item) { item.itemType = val; recalcTotals(); }
 }
 
+function updateItemPrice(id, val) {
+  const price = parseFloat(val);
+  if (isNaN(price) || price < 0) return;
+  const item = itemsCatalog.find(i => i.id === id);
+  if (!item) return;
+  item.price = price;
+  LS.save();
+  // Also update the refreshItemDropdown option text
+  refreshItemDropdown();
+  toast(`Price updated to ${cur()}${fmt(price)}`, 'success');
+}
+
 // ══════════════════════════════════════════════════════════════
 // ITEMS LIBRARY
 // ══════════════════════════════════════════════════════════════
@@ -35475,7 +35591,19 @@ function renderItemsTable() {
       <td style="font-weight:600;">${escHtml(item.name)}</td>
       <td class="text-muted text-sm">${escHtml(item.description || '')}</td>
       <td><span style="display:inline-block;padding:3px 9px;border-radius:20px;font-size:0.68rem;font-weight:600;white-space:nowrap;background:${style.split(';')[0]};${style.split(';')[1]||''}">${cat}</span></td>
-      <td style="font-weight:600;">${cur()}${fmt(item.price)}</td>
+      <td style="font-weight:600;padding:4px 8px;">
+        <div style="display:flex;align-items:center;gap:4px;">
+          <span style="font-size:0.78rem;color:var(--gray-400);">${cur()}</span>
+          <input type="number" class="inline-price-edit" data-id="${item.id}"
+            value="${item.price}"
+            step="0.01" min="0"
+            style="width:100px;font-weight:700;font-size:0.88rem;border:1.5px solid var(--gray-200);
+            border-radius:6px;padding:3px 6px;background:var(--gray-50);text-align:right;"
+            title="Click to edit price"
+            onchange="updateItemPrice(${item.id}, this.value)"
+            onblur="updateItemPrice(${item.id}, this.value)">
+        </div>
+      </td>
       <td>
         <div class="flex-gap">
           <button class="btn btn-outline btn-sm edit-item" data-id="${item.id}">✏️ Edit</button>
@@ -35557,6 +35685,8 @@ function refreshItemDropdown() {
     { label: '🚨 EVAC Systems',               keys: ['evac','emergency voice','evacuation','warden','wip','evac horn','evac speaker','evac amp','evac panel'] },
     { label: '🎬 Cinema & Screening',          keys: ['cinema','dci','imb','screening','dolby','atmos','acoustic panel','bass trap','tiered seating','movie','cinema screen','cinema amp'] },
     { label: '🏠 Home Automation',             keys: ['home automation','smart home','lutron','control4','z-wave','caseta','smart thermostat','smart doorbell','smart blind','smart irrigation','smart touchpanel','multi-room audio','in-ceiling audio','landscape speaker','energy dashboard'] },
+    { label: '📷 Hikvision',                   keys: ['hik vision','hikvision','hik dvr','hik nvr','hik ip','hik eco','hik ptz','hik colorvu','hik 3k'] },
+    { label: '💾 Storage / Drives',              keys: ['storage','hdd','ssd','flash disk','memory card','surveillance hard','sandisk','wd purple','nvme','sata','m.2'] },
     { label: '🔧 Services & Labor',            keys: ['installation','labor','labour','survey','design','project manag','commission','training','maintenance','amc','remote monitor','warranty','cable test','rack install','as-built','documentation','snag'] },
     { label: '📦 Other Items',                 keys: [] }
   ];
@@ -35654,7 +35784,14 @@ function renderSavedInvoicesList() {
   document.querySelectorAll('.delete-invoice').forEach(btn => {
     btn.addEventListener('click', () => {
       const num = btn.getAttribute('data-number');
-      if (!confirm(`Permanently delete invoice ${num}?`)) return;
+      // Require admin password before deletion
+      const pwd = prompt(`🔒 Admin password required to delete Invoice ${num}:`);
+      if (pwd === null) return; // cancelled
+      if (pwd !== 'Admin@123') {
+        toast('❌ Incorrect password — deletion cancelled', 'error');
+        return;
+      }
+      if (!confirm(`⚠️ Permanently delete Invoice ${num}? This cannot be undone.`)) return;
       savedInvoices = savedInvoices.filter(i => i.number !== num);
       renderSavedInvoicesList();
       genInvoiceNumber();
@@ -36083,6 +36220,14 @@ function applySettingsToUI() {
   // Pre-fill company TIN on invoice form from settings
   const invTINEl = document.getElementById('companyTIN');
   if (invTINEl && !invTINEl.value) invTINEl.value = appSettings.companyTIN || '';
+  // Restore saved exchange rate
+  if (appSettings.activeExchangeRate && appSettings.activeExchangeRate > 0) {
+    xeCurrentRate = appSettings.activeExchangeRate;
+    const rateEl = document.getElementById('inlineExchangeRate');
+    if (rateEl) rateEl.value = appSettings.activeExchangeRate;
+  }
+  // Trigger inline exchange rate panel visibility based on currency
+  setTimeout(onCurrencySymbolChange, 0);
   const lpoChk = document.getElementById('lpoTermsEnabled');
   if (lpoChk) {
     lpoChk.checked = !!appSettings.lpoTermsEnabled;
@@ -36369,6 +36514,13 @@ function init() {
   });
 
   // SETTINGS
+  // Inline exchange rate wiring
+  document.getElementById('currencySymbol')?.addEventListener('change', onCurrencySymbolChange);
+  document.getElementById('applyInlineRateBtn')?.addEventListener('click', applyInlineExchangeRate);
+  document.getElementById('inlineExchangeRate')?.addEventListener('keydown', e => {
+    if (e.key === 'Enter') applyInlineExchangeRate();
+  });
+
   document.getElementById('saveSettingsBtn').addEventListener('click', () => {
     appSettings.companyName = document.getElementById('compName').value;
     appSettings.companyAddress = document.getElementById('compAddress').value;
@@ -36381,6 +36533,9 @@ function init() {
     appSettings.paymentTerms = parseInt(document.getElementById('paymentTerms').value) || 30;
     appSettings.defaultNotes = document.getElementById('defaultNotes').value;
     appSettings.lpoTermsEnabled = document.getElementById('lpoTermsEnabled').checked;
+    // Persist active exchange rate with settings
+    const _activeRate = parseFloat(document.getElementById('inlineExchangeRate')?.value);
+    if (_activeRate > 0) appSettings.activeExchangeRate = _activeRate;
     applySettingsToUI();
     LS.save();
     toast('Settings saved successfully!', 'success');
@@ -36523,6 +36678,110 @@ function applyManualRate() {
   toast(`Rate applied: 1 ${from} = ${rateInput.toLocaleString()} ${to}${itemMsg}`, 'success');
 }
 
+// ══════════════════════════════════════════════════════════════
+// INLINE EXCHANGE RATE (Settings currency selector)
+// ══════════════════════════════════════════════════════════════
+
+// Currency code lookup (symbol → ISO code for display)
+const CURRENCY_CODES = {
+  '$': 'USD', 'UGX': 'UGX', '€': 'EUR', '£': 'GBP',
+  'KSh': 'KES', '₦': 'NGN', 'TZS': 'TZS', 'ZAR': 'ZAR',
+  'AED': 'AED', 'SAR': 'SAR', 'RWF': 'RWF', 'ETB': 'ETB',
+  'CNY': 'CNY', '¥': 'CNY', 'INR': 'INR', '₹': 'INR'
+};
+
+// USD base rates (approximate defaults — user can override)
+const DEFAULT_USD_RATES = {
+  'UGX': 3700, 'EUR': 0.92, 'GBP': 0.79, 'KSh': 130, '₦': 1600,
+  'TZS': 2550, 'ZAR': 18.5, 'AED': 3.67, 'SAR': 3.75,
+  'RWF': 1290, 'ETB': 57, 'CNY': 7.25, '¥': 7.25, 'INR': 83, '₹': 83
+};
+
+function onCurrencySymbolChange() {
+  const sym = document.getElementById('currencySymbol')?.value;
+  const wrap = document.getElementById('inlineExchangeRateWrap');
+  const label = document.getElementById('inlineExchangeCurrLabel');
+  const rateInput = document.getElementById('inlineExchangeRate');
+  const status = document.getElementById('inlineRateStatus');
+
+  if (!wrap || !sym) return;
+
+  // Immediately update appSettings.currency so cur() returns the new symbol
+  appSettings.currency = sym;
+  // Refresh all totals and line item displays with the new symbol
+  recalcTotals();
+  renderLineItemsTable();
+
+  const isUSD = sym === '$';
+  wrap.style.display = isUSD ? 'none' : '';
+
+  if (!isUSD) {
+    const code = CURRENCY_CODES[sym] || sym;
+    if (label) label.textContent = code;
+    // Pre-fill with default or last-used rate
+    const lastRate = parseFloat(localStorage.getItem('vt_rate_' + sym)) || DEFAULT_USD_RATES[sym] || '';
+    if (rateInput && lastRate) {
+      rateInput.value = lastRate;
+      if (status) status.textContent = lastRate
+        ? `Default rate: 1 USD = ${lastRate.toLocaleString()} ${code}. Update if needed.`
+        : '';
+    }
+    // Also sync the XE panel dropdowns
+    const xeFrom = document.getElementById('xeFromCurrency');
+    const xeTo   = document.getElementById('xeToCurrency');
+    if (xeFrom) xeFrom.value = 'USD';
+    if (xeTo)   xeTo.value   = code in {'USD':1,'UGX':1,'EUR':1,'GBP':1,'KES':1,'NGN':1,'TZS':1,'ZAR':1,'AED':1,'SAR':1,'JPY':1,'CNY':1,'INR':1} ? code : 'USD';
+    syncManualLabels();
+  }
+}
+
+function applyInlineExchangeRate() {
+  const sym = document.getElementById('currencySymbol')?.value;
+  const rateInput = document.getElementById('inlineExchangeRate');
+  const status = document.getElementById('inlineRateStatus');
+  const rate = parseFloat(rateInput?.value);
+  const code = CURRENCY_CODES[sym] || sym;
+
+  if (!rate || rate <= 0 || isNaN(rate)) {
+    if (status) status.textContent = '⚠️ Please enter a valid rate greater than 0.';
+    rateInput?.focus();
+    return;
+  }
+
+  // Apply to XE rate system
+  xeCurrentRate = rate;
+  xeCurrentFrom = 'USD';
+  xeCurrentTo   = code;
+
+  // Save rate for next time
+  try { localStorage.setItem('vt_rate_' + sym, rate); } catch(e) {}
+
+  // Reprice existing line items that have a USD base price
+  let repriced = 0;
+  lineItems.forEach(item => {
+    if (item.basePrice && item.basePrice > 0) {
+      item.unitPrice = item.basePrice * rate;
+      item.rateApplied = rate;
+      repriced++;
+    }
+  });
+
+  // Always refresh totals and line items to show updated currency symbol
+  renderLineItemsTable();
+  recalcTotals();
+
+  // Update XE panel display
+  const xeDisplay = document.getElementById('xeRateDisplay');
+  if (xeDisplay) xeDisplay.textContent = `1 USD = ${rate.toLocaleString('en-US', {minimumFractionDigits:2,maximumFractionDigits:6})} ${code}`;
+  const xeInverse = document.getElementById('xeRateInverse');
+  if (xeInverse) xeInverse.textContent = `1 ${code} = ${(1/rate).toLocaleString('en-US', {minimumFractionDigits:6,maximumFractionDigits:8})} USD`;
+  const xeTs = document.getElementById('xeRateTimestamp');
+  if (xeTs) xeTs.textContent = 'Set ' + new Date().toLocaleTimeString('en-US', {hour:'2-digit',minute:'2-digit'});
+
+  if (status) status.textContent = `✅ Rate applied: 1 USD = ${rate.toLocaleString()} ${code}${repriced > 0 ? ` · ${repriced} item(s) repriced` : ''}`;
+  toast(`Rate applied: 1 USD = ${rate.toLocaleString()} ${code}${repriced > 0 ? ` · ${repriced} item(s) repriced` : ''}`, 'success');
+}
+
 function initXeRatePanel() {
   document.getElementById('applyManualRateBtn').addEventListener('click', applyManualRate);
 
@@ -36650,8 +36909,27 @@ async function ghPushData() {
     });
 
     if (!res.ok) {
-      if (res.status === 404) throw new Error(`Repository "${owner}/${repo}" not found (404). Make sure the repo exists on GitHub and your token has "repo" scope.`);
-      throw new Error(`GitHub API ${res.status}: ${await res.text()}`);
+      if (res.status === 409) {
+        // SHA conflict — file was updated externally. Re-fetch fresh SHA and retry once.
+        ghLog('SHA conflict (409) — re-fetching latest SHA and retrying…', 'warning');
+        const fresh = await ghGetFile();
+        if (fresh && fresh.sha) {
+          body.sha = fresh.sha;
+          const retry = await fetch(url, {
+            method: 'PUT',
+            headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github+json', 'Content-Type': 'application/json', 'X-GitHub-Api-Version': '2022-11-28' },
+            body: JSON.stringify(body)
+          });
+          if (!retry.ok) throw new Error(`GitHub API ${retry.status} (retry): ${await retry.text()}`);
+          // Retry succeeded — fall through to success handling
+        } else {
+          throw new Error('SHA conflict (409): could not retrieve latest SHA for retry. Try pulling first.');
+        }
+      } else if (res.status === 404) {
+        throw new Error(`Repository "${owner}/${repo}" not found (404). Make sure the repo exists on GitHub and your token has "repo" scope.`);
+      } else {
+        throw new Error(`GitHub API ${res.status}: ${await res.text()}`);
+      }
     }
     _origLsSave(); // persist locally without re-triggering auto-push
     ghSetStatus('⬤ Synced ✓', 'green');
