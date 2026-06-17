@@ -1424,6 +1424,12 @@
       "name": "SSD 1TB M.2 NVMe",
       "description": "Storage · M.2 2280 NVMe SSD · 1TB, PCIe Gen3, up to 3500MB/s read",
       "price": 210000
+    },
+    {
+      "id": 236,
+      "name": "Coaxial with Power",
+      "description": "RG59 coaxial cable with power 100m roll",
+      "price": 250000
     }
   ],
   "invoices": [
@@ -1934,5 +1940,5 @@
       }
     }
   ],
-  "pushedAt": "2026-06-17T14:30:36.941Z"
+  "pushedAt": "2026-06-17T14:32:04.289Z"
 }
