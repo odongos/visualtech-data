@@ -1034,6 +1034,396 @@
       "name": "Energy Management Dashboard (licence)",
       "description": "Home Automation · Cloud dashboard, per-circuit monitoring, solar/battery integration, API export",
       "price": 480
+    },
+    {
+      "id": 171,
+      "name": "HIK DVR 4CH 1080P (DS-7204HGHI-M1)",
+      "description": "CCTV · HIK VISION Analog DVR · 4CH HGHI 1080P · PN: 300229094",
+      "price": 120000
+    },
+    {
+      "id": 172,
+      "name": "HIK DVR 8CH 1080P (DS-7208HGHI-M1)",
+      "description": "CCTV · HIK VISION Analog DVR · 8CH HGHI 1080P · PN: 300229095",
+      "price": 150000
+    },
+    {
+      "id": 173,
+      "name": "HIK DVR 16CH 1080P (DS-7216HGHI-M1)",
+      "description": "CCTV · HIK VISION Analog DVR · 16CH HGHI 1080P · PN: 300228915",
+      "price": 255000
+    },
+    {
+      "id": 174,
+      "name": "HIK DVR 32CH 1080P (DS-7232HGHI-M2)",
+      "description": "CCTV · HIK VISION Analog DVR · 32CH HGHI 1080P · PN: 300228511",
+      "price": 830000
+    },
+    {
+      "id": 175,
+      "name": "HIK DVR 4CH 4MP (IDS-7204HQHI-M1/S)",
+      "description": "CCTV · HIK VISION Analog DVR · 4CH HQHI 4MP · PN: 300226826",
+      "price": 200000
+    },
+    {
+      "id": 176,
+      "name": "HIK DVR 8CH 4MP (IDS-7208HQHI-M1/S)",
+      "description": "CCTV · HIK VISION Analog DVR · 8CH HQHI 4MP · PN: 300226811",
+      "price": 300000
+    },
+    {
+      "id": 177,
+      "name": "HIK DVR 16CH 4MP (IDS-7216HQHI-M2/S)",
+      "description": "CCTV · HIK VISION Analog DVR · 16CH HQHI 4MP · PN: 300887546",
+      "price": 520000
+    },
+    {
+      "id": 178,
+      "name": "HIK DVR 16CH 5MP (IDS-7216HQHI-M1/XT)",
+      "description": "CCTV · HIK VISION Analog DVR · 16CH HQHI 5MP AcuSense",
+      "price": 530000
+    },
+    {
+      "id": 179,
+      "name": "HIK DVR 32CH 5MP (IDS-7232HQHI-M2/XT)",
+      "description": "CCTV · HIK VISION Analog DVR · 32CH HQHI 3K/5MP · PN: 300229177",
+      "price": 1000000
+    },
+    {
+      "id": 180,
+      "name": "HIK DVR 32CH 4MP (IDS-7232HQHI-M2/S)",
+      "description": "CCTV · HIK VISION Analog DVR · 32CH HQHI 4MP · PN: 300227850",
+      "price": 950000
+    },
+    {
+      "id": 181,
+      "name": "HIK ECO Dome w/ Audio (Smart Hybrid)",
+      "description": "CCTV · HIK VISION Analog ECO Dome · Smart Hybrid, built-in audio · PN: 327800604",
+      "price": 55000
+    },
+    {
+      "id": 182,
+      "name": "HIK ECO Bullet w/ Audio (Smart Hybrid)",
+      "description": "CCTV · HIK VISION Analog ECO Bullet · Smart Hybrid, built-in audio · PN: 327800603",
+      "price": 55000
+    },
+    {
+      "id": 183,
+      "name": "HIK ECO 3K Dome w/ Audio (DS-2CE76KF0T-LPFS)",
+      "description": "CCTV · HIK VISION ECO 3K Dome · Smart Hybrid, audio · PN: 327801040",
+      "price": 85000
+    },
+    {
+      "id": 184,
+      "name": "HIK ECO 3K Bullet w/ Audio (DS-2CE16KF0T-LPFS)",
+      "description": "CCTV · HIK VISION ECO 3K Bullet · Smart Hybrid, audio · PN: 327801039",
+      "price": 85000
+    },
+    {
+      "id": 185,
+      "name": "HIK ColorVU 20m Dome w/ Audio Silver (DS-2CE70DF0T-LMFS)",
+      "description": "CCTV · HIK VISION Full Color 20m Dome · audio, silver · PN: 327800634",
+      "price": 80000
+    },
+    {
+      "id": 186,
+      "name": "HIK ColorVU 20m Bullet w/ Audio Silver (DS-2CE10DF0T-LMFS)",
+      "description": "CCTV · HIK VISION Full Color 20m Bullet · audio, silver · PN: 327800631",
+      "price": 80000
+    },
+    {
+      "id": 187,
+      "name": "HIK ColorVU 20m Dome w/ Audio Gold (DS-2CE70DF3T-LPFS)",
+      "description": "CCTV · HIK VISION Full Color 20m Dome · audio, gold strip · PN: 327800919",
+      "price": 95000
+    },
+    {
+      "id": 188,
+      "name": "HIK ColorVU 20m Bullet w/ Audio Gold (DS-2CE10DF3T-LPFS)",
+      "description": "CCTV · HIK VISION Full Color 20m Bullet · audio, gold strip · PN: 327800914",
+      "price": 95000
+    },
+    {
+      "id": 189,
+      "name": "HIK ColorVU 40m Dome w/ Audio Gold",
+      "description": "CCTV · HIK VISION Full Color 40m Dome · audio, gold strip · PN: 327800923",
+      "price": 110000
+    },
+    {
+      "id": 190,
+      "name": "HIK ColorVU 40m Bullet w/ Audio Gold",
+      "description": "CCTV · HIK VISION Full Color 40m Bullet · audio, gold strip · PN: 327800918",
+      "price": 110000
+    },
+    {
+      "id": 191,
+      "name": "HIK 3K 20m Dome Full Color (DS-2CE70KF0T-LPFS)",
+      "description": "CCTV · HIK VISION 3K 5MP Full Color 20m Dome · PN: 327800901",
+      "price": 95000
+    },
+    {
+      "id": 192,
+      "name": "HIK 3K 20m Bullet Full Color",
+      "description": "CCTV · HIK VISION 3K 5MP Full Color 20m Bullet",
+      "price": 95000
+    },
+    {
+      "id": 193,
+      "name": "HIK 3K 40m Dome Full Color (DS-2CE72KF0T-LFS)",
+      "description": "CCTV · HIK VISION 3K 5MP Full Color 40m Dome · PN: 327800905",
+      "price": 125000
+    },
+    {
+      "id": 194,
+      "name": "HIK 3K 40m Bullet Full Color (DS-2CE12KF0T-LFS)",
+      "description": "CCTV · HIK VISION 3K 5MP Full Color 40m Bullet · PN: 327800900",
+      "price": 125000
+    },
+    {
+      "id": 195,
+      "name": "HIK ColorVU 40m Bullet w/ Siren (DS-2CE12DF3T-PIRXOS)",
+      "description": "CCTV · HIK VISION Full Color 40m Bullet · siren, strobe light · PN: 300513066",
+      "price": 170000
+    },
+    {
+      "id": 196,
+      "name": "HIK NVR 4CH All-PoE (DS-7104NI-Q1/4P/M)",
+      "description": "CCTV · HIK VISION IP NVR · 4CH all-PoE · PN: 303618108",
+      "price": 260000
+    },
+    {
+      "id": 197,
+      "name": "HIK NVR 8CH All-PoE (DS-7180NI-Q1/8P/M)",
+      "description": "CCTV · HIK VISION IP NVR 7100 Series · 8CH all-PoE · PN: 303618106",
+      "price": 350000
+    },
+    {
+      "id": 198,
+      "name": "HIK NVR 8CH 7600 All-PoE (DS-7608NI-Q2/8P)",
+      "description": "CCTV · HIK VISION IP NVR 7600 Series · 8CH all-PoE · PN: 303616549",
+      "price": 530000
+    },
+    {
+      "id": 199,
+      "name": "HIK NVR 16CH All-PoE (DS-7616NI-Q2/16P)",
+      "description": "CCTV · HIK VISION IP NVR · 16CH all-PoE · PN: 303616533",
+      "price": 640000
+    },
+    {
+      "id": 200,
+      "name": "HIK NVR 32CH K2 16-PoE (DS-7632NXI-K2/16P)",
+      "description": "CCTV · HIK VISION IP NVR 7600 Series · 32CH 16-port PoE · PN: 303616127",
+      "price": 1050000
+    },
+    {
+      "id": 201,
+      "name": "HIK NVR 32CH K4 16-PoE (DS-7732NXI-K4/16P)",
+      "description": "CCTV · HIK VISION IP NVR 7700 Series · 32CH 16-port PoE · PN: 303616156",
+      "price": 1400000
+    },
+    {
+      "id": 202,
+      "name": "HIK IP 2MP Dome Full Color w/ Audio (DS-2CD1327G2H-LIU)",
+      "description": "CCTV · HIK VISION IP 2MP Full Color Dome · built-in audio · PN: 311325400",
+      "price": 150000
+    },
+    {
+      "id": 203,
+      "name": "HIK IP 2MP Bullet Full Color w/ Audio (DS-2CD1027G2H-LIU)",
+      "description": "CCTV · HIK VISION IP 2MP Full Color Bullet · built-in audio · PN: 311325409",
+      "price": 150000
+    },
+    {
+      "id": 204,
+      "name": "HIK IP 4MP Dome Full Color w/ Audio (DS-2CD1347G2H-LIU)",
+      "description": "CCTV · HIK VISION IP 4MP Full Color Dome · built-in audio · PN: 311325148",
+      "price": 195000
+    },
+    {
+      "id": 205,
+      "name": "HIK IP 4MP Bullet Full Color w/ Audio (DS-2CD1047G2H-LIU)",
+      "description": "CCTV · HIK VISION IP 4MP Full Color Bullet · built-in audio · PN: 311326491",
+      "price": 195000
+    },
+    {
+      "id": 206,
+      "name": "HIK IP 2MP Dome Smart Hybrid w/ Audio (DS-2CD1123G2-LIU)",
+      "description": "CCTV · HIK VISION IP 2MP Smart Hybrid Dome · audio · PN: 311322060",
+      "price": 135000
+    },
+    {
+      "id": 207,
+      "name": "HIK IP 2MP Bullet Smart Hybrid w/ Audio (DS-2CD1023G2-LIU)",
+      "description": "CCTV · HIK VISION IP 2MP Smart Hybrid Bullet · audio · PN: 311322025",
+      "price": 135000
+    },
+    {
+      "id": 208,
+      "name": "HIK IP 4MP Dome Smart Hybrid w/ Audio (DS-2CD1143G2-LIU)",
+      "description": "CCTV · HIK VISION IP 4MP Smart Hybrid Dome · audio",
+      "price": 180000
+    },
+    {
+      "id": 209,
+      "name": "HIK IP 4MP Bullet Smart Hybrid w/ Audio (DS-2CD1043G2-LIU)",
+      "description": "CCTV · HIK VISION IP 4MP Smart Hybrid Bullet · audio",
+      "price": 180000
+    },
+    {
+      "id": 210,
+      "name": "HIK PTZ Analog 2MP 25x Speed Dome (DS-2AE4225TI-D)",
+      "description": "CCTV · HIK VISION Analog PTZ 2MP 25x · Speed Dome · PN: 301205267",
+      "price": 750000
+    },
+    {
+      "id": 211,
+      "name": "HIK PTZ IP Mini 4MP 4x (DS-2DE2A40IW)",
+      "description": "CCTV · HIK VISION IP Mini PTZ 4MP 4x zoom · PN: 327000399",
+      "price": 380000
+    },
+    {
+      "id": 212,
+      "name": "HIK PTZ IP 2MP 15x ColorVU Speed Dome (DS-2SE4C215MEG-E)",
+      "description": "CCTV · HIK VISION IP PTZ 2MP 15x ColorVU · PN: 327000904",
+      "price": 1050000
+    },
+    {
+      "id": 213,
+      "name": "HIK PTZ IP 2MP 25x ColorVU Speed Dome (DS-2SE4C225MWG-E)",
+      "description": "CCTV · HIK VISION IP PTZ 2MP 25x ColorVU · PN: 327000906",
+      "price": 1100000
+    },
+    {
+      "id": 214,
+      "name": "HIK PTZ IP Mini 4MP ColorVU (DS-2DE3A40BW-DE)",
+      "description": "CCTV · HIK VISION IP Mini PTZ 4MP ColorVU · PN: 327000117",
+      "price": 1050000
+    },
+    {
+      "id": 215,
+      "name": "HDD 500GB Desktop",
+      "description": "Storage · Care Imaging Solutions · 500GB Desktop Hard Drive",
+      "price": 50000
+    },
+    {
+      "id": 216,
+      "name": "HDD 1TB WD Surveillance",
+      "description": "Storage · WD Purple/Purple Pro · 1TB Surveillance Hard Drive, 24/7 rated",
+      "price": 110000
+    },
+    {
+      "id": 217,
+      "name": "HDD 2TB WD Surveillance",
+      "description": "Storage · WD Purple/Purple Pro · 2TB Surveillance Hard Drive, 24/7 rated",
+      "price": 150000
+    },
+    {
+      "id": 218,
+      "name": "HDD 4TB WD Surveillance",
+      "description": "Storage · WD Purple/Purple Pro · 4TB Surveillance Hard Drive, 24/7 rated",
+      "price": 235000
+    },
+    {
+      "id": 219,
+      "name": "HDD 6TB WD Surveillance",
+      "description": "Storage · WD Purple/Purple Pro · 6TB Surveillance Hard Drive, 24/7 rated",
+      "price": 370000
+    },
+    {
+      "id": 220,
+      "name": "HDD 8TB WD Surveillance",
+      "description": "Storage · WD Purple/Purple Pro · 8TB Surveillance Hard Drive, 24/7 rated",
+      "price": 450000
+    },
+    {
+      "id": 221,
+      "name": "HDD 10TB WD Surveillance",
+      "description": "Storage · WD Purple/Purple Pro · 10TB Surveillance Hard Drive, 24/7 rated",
+      "price": 640000
+    },
+    {
+      "id": 222,
+      "name": "HDD 12TB WD Surveillance",
+      "description": "Storage · WD Purple/Purple Pro · 12TB Surveillance Hard Drive, 24/7 rated",
+      "price": 750000
+    },
+    {
+      "id": 223,
+      "name": "Memory Card 32GB SanDisk",
+      "description": "Storage · SanDisk · 32GB MicroSD / SD Memory Card",
+      "price": 16000
+    },
+    {
+      "id": 224,
+      "name": "Memory Card 64GB SanDisk",
+      "description": "Storage · SanDisk · 64GB MicroSD / SD Memory Card",
+      "price": 20000
+    },
+    {
+      "id": 225,
+      "name": "Memory Card 128GB SanDisk",
+      "description": "Storage · SanDisk · 128GB MicroSD / SD Memory Card",
+      "price": 35000
+    },
+    {
+      "id": 226,
+      "name": "Memory Card 256GB SanDisk",
+      "description": "Storage · SanDisk · 256GB MicroSD / SD Memory Card",
+      "price": 65000
+    },
+    {
+      "id": 227,
+      "name": "Flash Disk 32GB SanDisk",
+      "description": "Storage · SanDisk · 32GB USB Flash Drive / Thumb Drive",
+      "price": 16000
+    },
+    {
+      "id": 228,
+      "name": "Flash Disk 64GB SanDisk",
+      "description": "Storage · SanDisk · 64GB USB Flash Drive / Thumb Drive",
+      "price": 20000
+    },
+    {
+      "id": 229,
+      "name": "Flash Disk 128GB SanDisk",
+      "description": "Storage · SanDisk · 128GB USB Flash Drive / Thumb Drive",
+      "price": 35000
+    },
+    {
+      "id": 230,
+      "name": "SSD 256GB 2.5 SATA",
+      "description": "Storage · 2.5-inch SATA SSD · 256GB, 550MB/s read, laptop/desktop compatible",
+      "price": 80000
+    },
+    {
+      "id": 231,
+      "name": "SSD 512GB 2.5 SATA",
+      "description": "Storage · 2.5-inch SATA SSD · 512GB, 550MB/s read, laptop/desktop compatible",
+      "price": 110000
+    },
+    {
+      "id": 232,
+      "name": "SSD 1TB 2.5 SATA",
+      "description": "Storage · 2.5-inch SATA SSD · 1TB, 550MB/s read, laptop/desktop compatible",
+      "price": 210000
+    },
+    {
+      "id": 233,
+      "name": "SSD 256GB M.2 NVMe",
+      "description": "Storage · M.2 2280 NVMe SSD · 256GB, PCIe Gen3, up to 2400MB/s read",
+      "price": 80000
+    },
+    {
+      "id": 234,
+      "name": "SSD 512GB M.2 NVMe",
+      "description": "Storage · M.2 2280 NVMe SSD · 512GB, PCIe Gen3, up to 2400MB/s read",
+      "price": 110000
+    },
+    {
+      "id": 235,
+      "name": "SSD 1TB M.2 NVMe",
+      "description": "Storage · M.2 2280 NVMe SSD · 1TB, PCIe Gen3, up to 3500MB/s read",
+      "price": 210000
     }
   ],
   "invoices": [
@@ -1452,5 +1842,5 @@
       }
     }
   ],
-  "pushedAt": "2026-06-16T14:05:33.187Z"
+  "pushedAt": "2026-06-17T14:08:43.333Z"
 }
