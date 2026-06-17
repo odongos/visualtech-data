@@ -1863,7 +1863,7 @@
       "slaTier": "",
       "boqSection": "",
       "vatClassification": "Standard Rated (18%)",
-      "materialsTotal": 1080000,
+      "materialsTotal": 1330000,
       "labourTotal": 0,
       "clientName": "Client",
       "clientEmail": "",
@@ -1919,12 +1919,34 @@
           "basePrice": null,
           "rateApplied": null,
           "discount": 0
+        },
+        {
+          "id": 505,
+          "itemId": 236,
+          "name": "Coaxial with Power",
+          "description": "RG59 coaxial cable with power 100m roll",
+          "quantity": 1,
+          "unitPrice": 150000,
+          "basePrice": null,
+          "rateApplied": null,
+          "discount": 0
+        },
+        {
+          "id": 506,
+          "itemId": 237,
+          "name": "Power Supply",
+          "description": "6Amp Power supply",
+          "quantity": 1,
+          "unitPrice": 100000,
+          "basePrice": null,
+          "rateApplied": null,
+          "discount": 0
         }
       ],
-      "subtotal": 1080000,
+      "subtotal": 1330000,
       "discountAmt": 0,
       "tax": 0,
-      "total": 1080000,
+      "total": 1330000,
       "taxRateUsed": 18,
       "currency": "UGX",
       "bankAccount": null,
@@ -1946,5 +1968,5 @@
       }
     }
   ],
-  "pushedAt": "2026-06-17T14:33:04.018Z"
+  "pushedAt": "2026-06-17T14:35:19.383Z"
 }
