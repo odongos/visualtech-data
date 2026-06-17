@@ -1851,7 +1851,7 @@
       "slaTier": "",
       "boqSection": "",
       "vatClassification": "Standard Rated (18%)",
-      "materialsTotal": 740000,
+      "materialsTotal": 1080000,
       "labourTotal": 0,
       "clientName": "Client",
       "clientEmail": "",
@@ -1870,98 +1870,6 @@
           "name": "HIK ColorVU 20m Dome w/ Audio Silver (DS-2CE70DF0T-LMFS)",
           "description": "CCTV · HIK VISION Full Color 20m Dome · audio, silver · PN: 327800634",
           "quantity": 5,
-          "unitPrice": 80000,
-          "basePrice": 80000,
-          "rateApplied": 1,
-          "discount": 0
-        },
-        {
-          "id": 502,
-          "itemId": 172,
-          "name": "HIK DVR 8CH 1080P (DS-7208HGHI-M1)",
-          "description": "CCTV · HIK VISION Analog DVR · 8CH HGHI 1080P · PN: 300229095",
-          "quantity": 1,
-          "unitPrice": 150000,
-          "basePrice": 150000,
-          "rateApplied": 1,
-          "discount": 0
-        },
-        {
-          "id": 503,
-          "itemId": 186,
-          "name": "HIK ColorVU 20m Bullet w/ Audio Silver (DS-2CE10DF0T-LMFS)",
-          "description": "CCTV · HIK VISION Full Color 20m Bullet · audio, silver · PN: 327800631",
-          "quantity": 1,
-          "unitPrice": 80000,
-          "basePrice": 80000,
-          "rateApplied": 1,
-          "discount": 0
-        },
-        {
-          "id": 504,
-          "itemId": 216,
-          "name": "HDD 1TB WD Surveillance",
-          "description": "Storage · WD Purple/Purple Pro · 1TB Surveillance Hard Drive, 24/7 rated",
-          "quantity": 1,
-          "unitPrice": 110000,
-          "basePrice": 110000,
-          "rateApplied": 1,
-          "discount": 0
-        }
-      ],
-      "subtotal": 740000,
-      "discountAmt": 0,
-      "tax": 133200,
-      "total": 873200,
-      "taxRateUsed": 18,
-      "currency": "UGX",
-      "bankAccount": null,
-      "includeVat": true,
-      "companySnap": {
-        "companyName": "Visualtech Solutions",
-        "companyAddress": "300 Digital Street, Suite 100, Kampala",
-        "companyPhone": "+256 700 409 2024",
-        "companyEmail": "billing@visualtech.com",
-        "companyWebsite": "www.visualtech.com",
-        "taxRate": 18,
-        "currency": "UGX",
-        "invoicePrefix": "INV",
-        "paymentTerms": 30,
-        "defaultNotes": "Payment due within 30 days of invoice date. Thank you for your business!",
-        "lpoTermsEnabled": true,
-        "bankAccounts": [],
-        "activeExchangeRate": 3700
-      }
-    },
-    {
-      "number": "INV-008",
-      "revision": "A",
-      "projectContractNo": "",
-      "clientTIN": "",
-      "companyTIN": "",
-      "warrantyPeriod": "",
-      "slaTier": "",
-      "boqSection": "",
-      "vatClassification": "Standard Rated (18%)",
-      "materialsTotal": 1120000,
-      "labourTotal": 0,
-      "clientName": "Client",
-      "clientEmail": "",
-      "clientPhone": "",
-      "clientAddress": "",
-      "date": "2026-06-17",
-      "dueDate": "2026-07-17",
-      "notes": "Payment due within 30 days of invoice date. Thank you for your business!\n\n\n\nExchange Rate used: 1 USD = 1.00 UGX (source: xe.com, set on Jun 17, 2026).",
-      "status": "draft",
-      "discountPct": 0,
-      "advancePaymentPct": 0,
-      "lineItems": [
-        {
-          "id": 501,
-          "itemId": 185,
-          "name": "HIK ColorVU 20m Dome w/ Audio Silver (DS-2CE70DF0T-LMFS)",
-          "description": "CCTV · HIK VISION Full Color 20m Dome · audio, silver · PN: 327800634",
-          "quantity": 5,
           "unitPrice": 120000,
           "basePrice": null,
           "rateApplied": null,
@@ -1973,7 +1881,7 @@
           "name": "HIK DVR 8CH 1080P (DS-7208HGHI-M1)",
           "description": "CCTV · HIK VISION Analog DVR · 8CH HGHI 1080P · PN: 300229095",
           "quantity": 1,
-          "unitPrice": 250000,
+          "unitPrice": 200000,
           "basePrice": null,
           "rateApplied": null,
           "discount": 0
@@ -1984,7 +1892,7 @@
           "name": "HIK ColorVU 20m Bullet w/ Audio Silver (DS-2CE10DF0T-LMFS)",
           "description": "CCTV · HIK VISION Full Color 20m Bullet · audio, silver · PN: 327800631",
           "quantity": 1,
-          "unitPrice": 120000,
+          "unitPrice": 130000,
           "basePrice": null,
           "rateApplied": null,
           "discount": 0
@@ -2001,10 +1909,10 @@
           "discount": 0
         }
       ],
-      "subtotal": 1120000,
+      "subtotal": 1080000,
       "discountAmt": 0,
       "tax": 0,
-      "total": 1120000,
+      "total": 1080000,
       "taxRateUsed": 18,
       "currency": "UGX",
       "bankAccount": null,
@@ -2026,5 +1934,5 @@
       }
     }
   ],
-  "pushedAt": "2026-06-17T14:28:59.659Z"
+  "pushedAt": "2026-06-17T14:30:36.941Z"
 }
