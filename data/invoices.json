@@ -2376,7 +2376,143 @@
         "bankAccounts": [],
         "activeExchangeRate": 3700
       }
+    },
+    {
+      "number": "INV-010",
+      "revision": "A",
+      "projectContractNo": "",
+      "clientTIN": "",
+      "companyTIN": "",
+      "warrantyPeriod": "Manufacturer warranty applies",
+      "slaTier": "",
+      "boqSection": "Preliminaries",
+      "vatClassification": "Zero Rated (0%)",
+      "materialsTotal": 21396878,
+      "labourTotal": 0,
+      "clientName": "Shalom Tech",
+      "clientEmail": "",
+      "clientPhone": "",
+      "clientAddress": "",
+      "date": "2026-06-22",
+      "dueDate": "2026-07-22",
+      "notes": "Payment due within 30 days of invoice date. Thank you for your business!",
+      "status": "draft",
+      "discountPct": 0,
+      "advancePaymentPct": 0,
+      "lineItems": [
+        {
+          "id": 500,
+          "itemId": 251,
+          "name": "AUXDIO AM6402 4K UHD Blu-ray Media Player",
+          "description": "Home Theater · Realtek 1296DD HiFi, Quad-core A53, 2GB/16GB, Gigabit + 802.11ac WiFi · PN: AM6402",
+          "quantity": 1,
+          "unitPrice": 1762939,
+          "basePrice": 476.47,
+          "rateApplied": 3700,
+          "discount": 0
+        },
+        {
+          "id": 501,
+          "itemId": 250,
+          "name": "AUXDIO AM6401 Dolby Atmos Decoder (Queen Series)",
+          "description": "Home Theater · Queen 7.2 Atmos · KTV X5 processor, 7.2.4ch Dolby Atmos, 3x HDMI in, 2 mic in · PN: AM6401",
+          "quantity": 1,
+          "unitPrice": 2908866,
+          "basePrice": 786.18,
+          "rateApplied": 3700,
+          "discount": 0
+        },
+        {
+          "id": 502,
+          "itemId": 246,
+          "name": "AUXDIO AM6303 8-inch Cinema Subwoofer (Prince Series)",
+          "description": "Home Theater · Prince 5.1 · Passive subwoofer, conical aviation-grade cabinet · PN: AM6303",
+          "quantity": 1,
+          "unitPrice": 617012,
+          "basePrice": 166.76,
+          "rateApplied": 3700,
+          "discount": 0
+        },
+        {
+          "id": 503,
+          "itemId": 253,
+          "name": "AUXDIO AM6404 250W Center Speaker (Queen Series)",
+          "description": "Home Theater · Queen 7.2 · 2x6.5-inch woofer + 34-core driver horn tweeter, 55Hz-20kHz, 8Ohm · PN: AM6404",
+          "quantity": 1,
+          "unitPrice": 705183,
+          "basePrice": 190.59,
+          "rateApplied": 3700,
+          "discount": 0
+        },
+        {
+          "id": 504,
+          "itemId": 262,
+          "name": "AUXDIO AM6605 250W Front Speaker (Knight Series)",
+          "description": "Home Theater · Knight 7.1 · Dual 6.5-inch 2-way full-range cinema KTV, 65Hz-20kHz · PN: AM6605",
+          "quantity": 4,
+          "unitPrice": 969622,
+          "basePrice": 262.06,
+          "rateApplied": 3700,
+          "discount": 0
+        },
+        {
+          "id": 505,
+          "itemId": 254,
+          "name": "AUXDIO AM6405 350W Surround Speaker (Queen Series)",
+          "description": "Home Theater · Queen 7.2 · 350W/4Ohm, 65Hz-20kHz, 95dB, 80x160 deg coverage · PN: AM6405",
+          "quantity": 2,
+          "unitPrice": 572945,
+          "basePrice": 154.85,
+          "rateApplied": 3700,
+          "discount": 0
+        },
+        {
+          "id": 506,
+          "itemId": 256,
+          "name": "AUXDIO AM6407 600W 12-inch Subwoofer",
+          "description": "Home Theater · 2x12-inch woofers, 600W, 43Hz-260Hz, 8Ohm, 92dB sensitivity · PN: AM6407",
+          "quantity": 2,
+          "unitPrice": 749250,
+          "basePrice": 202.5,
+          "rateApplied": 3700,
+          "discount": 0
+        },
+        {
+          "id": 507,
+          "itemId": 152,
+          "name": "Cinema Installation & Commissioning",
+          "description": "Cinema · Labour · Full install, alignment, color calibration (DCI white point), audio EQ, sign-off",
+          "quantity": 1,
+          "unitPrice": 8880000,
+          "basePrice": 2400,
+          "rateApplied": 3700,
+          "discount": 0
+        }
+      ],
+      "subtotal": 21396878,
+      "discountAmt": 0,
+      "tax": 0,
+      "total": 21396878,
+      "taxRateUsed": 18,
+      "currency": "UGX",
+      "bankAccount": null,
+      "includeVat": false,
+      "companySnap": {
+        "companyName": "Visualtech Solutions",
+        "companyAddress": "300 Digital Street, Suite 100, Kampala",
+        "companyPhone": "+256 700 409 2024",
+        "companyEmail": "billing@visualtech.com",
+        "companyWebsite": "www.visualtech.com",
+        "taxRate": 18,
+        "currency": "UGX",
+        "invoicePrefix": "INV",
+        "paymentTerms": 30,
+        "defaultNotes": "Payment due within 30 days of invoice date. Thank you for your business!",
+        "lpoTermsEnabled": true,
+        "bankAccounts": [],
+        "activeExchangeRate": 3700
+      }
     }
   ],
-  "pushedAt": "2026-06-22T15:36:34.192Z"
+  "pushedAt": "2026-06-22T15:49:40.731Z"
 }
