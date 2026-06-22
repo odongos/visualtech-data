@@ -34589,7 +34589,10 @@ var XLSX={};function make_xlsx_lib(a){a.version="0.18.5",a.style_version="1.2.0"
             <option value="structured cabling">🔌 Structured Cabling</option>
             <option value="evac">🚨 EVAC</option>
             <option value="cinema">🎬 Cinema</option>
+            <option value="home theater">🏠🎬 Home Theater</option>
+            <option value="ktv sound">🎤 KTV / Karaoke</option>
             <option value="home automation">🏠 Home Automation</option>
+            <option value="home theater">🎤 Home Theater / KTV</option>
             <option value="hik">📷 Hikvision</option>
             <option value="storage">💾 Storage / Drives</option>
             <option value="services">🔧 Services</option>
@@ -35169,6 +35172,44 @@ const DEFAULT_CATALOG = [
   { id:234, name:"SSD 512GB M.2 NVMe", description:"Storage · M.2 2280 NVMe SSD · 512GB, PCIe Gen3, up to 2400MB/s read", price:110000.00 },
   { id:235, name:"SSD 1TB M.2 NVMe", description:"Storage · M.2 2280 NVMe SSD · 1TB, PCIe Gen3, up to 3500MB/s read", price:210000.00 },
 
+  // ========== DSPPA AUXDIO — HOME THEATER & KTV (USD, EXW Guangzhou @ 6.75 RMB/USD) ==========
+  { id:236, name:"AUXDIO AM6501 5.1-CH AV Receiver (King Series)", description:"Home Theater · King 5.1 · Dolby TrueHD/DTS-MA licensed, HDCP 2.2, wireless rear surround · PN: AM6501", price:762.35 },
+  { id:237, name:"AUXDIO AM6502 5-inch Cinema Speaker (King Series)", description:"Home Theater · King 5.1 · Apple-shape cabinet, silk membrane coaxial tweeter, qty 5 per set · PN: AM6502", price:61.08 },
+  { id:238, name:"AUXDIO AM6503 10-inch Active Subwoofer (King Series)", description:"Home Theater · King 5.1 · Active bass, FRP cabinet, movie & karaoke tuned · PN: AM6503", price:405.0 },
+  { id:239, name:"AUXDIO AM6504 UHF Wireless Microphone (King Series)", description:"Home Theater · King 5.1 · Rechargeable, U-band digital HiFi transmission, voice-activated · PN: AM6504", price:190.59 },
+  { id:240, name:"AUXDIO AM6507 Wall-mount Bracket (King front)", description:"Home Theater · King 5.1 · Wall-mount bracket for front speaker · PN: AM6507", price:3.58 },
+  { id:241, name:"AUXDIO AM6508 Floor Stand (King surround)", description:"Home Theater · King 5.1 · Floor stand for surround speaker · PN: AM6508", price:47.65 },
+  { id:242, name:"AUXDIO AM6509 Desktop Stand (King center)", description:"Home Theater · King 5.1 · Desktop stand for center speaker · PN: AM6509", price:22.75 },
+  { id:243, name:"AUXDIO AM6301 5.1-CH AV Receiver (Prince Series)", description:"Home Theater · Prince 5.1 · Dolby TrueHD/DTS-MA, wireless rear surround, HDCP 2.2 · PN: AM6301", price:428.82 },
+  { id:244, name:"AUXDIO AM6302C 2.5-inch Cinema Speaker Center (Prince)", description:"Home Theater · Prince 5.1 · Compact cylindrical, wide dynamic range, HD audio, center · PN: AM6302C", price:42.88 },
+  { id:245, name:"AUXDIO AM6302R 2.5-inch Cinema Speaker Surround (Prince)", description:"Home Theater · Prince 5.1 · Compact cylindrical, wide dynamic range, HD audio, surround x4 · PN: AM6302R", price:42.88 },
+  { id:246, name:"AUXDIO AM6303 8-inch Cinema Subwoofer (Prince Series)", description:"Home Theater · Prince 5.1 · Passive subwoofer, conical aviation-grade cabinet · PN: AM6303", price:166.76 },
+  { id:247, name:"AUXDIO AM6304 UHF Wireless Karaoke Mic (Prince Series)", description:"Home Theater · Prince 5.1 · Rechargeable, U-band digital HiFi, voice-activated · PN: AM6304", price:138.18 },
+  { id:248, name:"AUXDIO AM6307 Wall-mount Bracket (Prince front)", description:"Home Theater · Prince 5.1 · Wall-mount bracket for front speaker · PN: AM6307", price:8.34 },
+  { id:249, name:"AUXDIO AM6308 Floor Stand (Prince surround)", description:"Home Theater · Prince 5.1 · Floor stand for surround speaker · PN: AM6308", price:16.68 },
+  { id:250, name:"AUXDIO AM6401 Dolby Atmos Decoder (Queen Series)", description:"Home Theater · Queen 7.2 Atmos · KTV X5 processor, 7.2.4ch Dolby Atmos, 3x HDMI in, 2 mic in · PN: AM6401", price:786.18 },
+  { id:251, name:"AUXDIO AM6402 4K UHD Blu-ray Media Player", description:"Home Theater · Realtek 1296DD HiFi, Quad-core A53, 2GB/16GB, Gigabit + 802.11ac WiFi · PN: AM6402", price:476.47 },
+  { id:252, name:"AUXDIO AM6403 8-Channel Power Amplifier", description:"Home Theater · 7x400W + 1x1100W @8Ohm, 20Hz-20kHz, THD less than 0.05%, 1U rack · PN: AM6403", price:833.83 },
+  { id:253, name:"AUXDIO AM6404 250W Center Speaker (Queen Series)", description:"Home Theater · Queen 7.2 · 2x6.5-inch woofer + 34-core driver horn tweeter, 55Hz-20kHz, 8Ohm · PN: AM6404", price:190.59 },
+  { id:254, name:"AUXDIO AM6405 350W Surround Speaker (Queen Series)", description:"Home Theater · Queen 7.2 · 350W/4Ohm, 65Hz-20kHz, 95dB, 80x160 deg coverage · PN: AM6405", price:154.85 },
+  { id:255, name:"AUXDIO AM6412 450W Surround Speaker (Queen Series)", description:"Home Theater · Queen 7.2 · 450W/8Ohm, 55Hz-20kHz, 125dB sensitivity, 12-inch LF driver · PN: AM6412", price:190.68 },
+  { id:256, name:"AUXDIO AM6407 600W 12-inch Subwoofer", description:"Home Theater · 2x12-inch woofers, 600W, 43Hz-260Hz, 8Ohm, 92dB sensitivity · PN: AM6407", price:202.5 },
+  { id:257, name:"AUXDIO AM6409 Wireless Microphone", description:"Home Theater · Shock-resistant, natural clear sound, stable UHF wireless performance · PN: AM6409", price:162.0 },
+  { id:258, name:"AUXDIO AM6410 Power Sequence Controller", description:"Home Theater · 2-inch color LCD, 8 switchable channels, panel lock, built-in RTC auto-scheduling · PN: AM6410", price:71.47 },
+  { id:259, name:"AUXDIO AM6411 Mounting Brackets & Cables for AM6412", description:"Home Theater · Accessory · Mounting brackets and cables for AM6412 surround speakers · PN: AM6411", price:23.82 },
+  { id:260, name:"AUXDIO AM6601 Dolby Atmos Decoder (Knight Series)", description:"Home Theater · Knight 7.1 · KTV X5 processor, 7.2.4ch Dolby Atmos, 3x HDMI, 2 mic in · PN: AM6601", price:786.18 },
+  { id:261, name:"AUXDIO AM6604 200W Center Speaker (Knight Series)", description:"Home Theater · Knight 7.1 · 10-inch 2-way full-range KTV cinema speaker · PN: AM6604", price:257.29 },
+  { id:262, name:"AUXDIO AM6605 250W Front Speaker (Knight Series)", description:"Home Theater · Knight 7.1 · Dual 6.5-inch 2-way full-range cinema KTV, 65Hz-20kHz · PN: AM6605", price:262.06 },
+  { id:263, name:"AUXDIO AM6606 150W Surround Speaker (Knight Series)", description:"Home Theater · Knight 7.1 · 8-inch 2-way full-range cinema/KTV, 60Hz-20kHz · PN: AM6606", price:233.47 },
+  { id:264, name:"AUXDIO AM2503 Multi-function Power Amplifier", description:"KTV Sound · Bluetooth/USB/optical/analog in, 2 mic inputs, 4.3-inch touchscreen, USB tuning · PN: AM2503", price:323.79 },
+  { id:265, name:"AUXDIO AM2601 Professional Entertainment Speaker (8+1)", description:"KTV Sound · 8-inch + 1-inch neodymium tweeter, 40Hz-20kHz · PN: AM2601", price:610.23 },
+  { id:266, name:"AUXDIO AM2602 12-inch Active Subwoofer", description:"KTV Sound · 12-inch active + passive radiator, 30-120Hz, 0/180 deg phase · PN: AM2602W/B", price:303.87 },
+  { id:267, name:"AUXDIO AM2604 All-metal Speaker Bracket 75cm", description:"KTV Sound · 75cm, fits 6.5-12-inch speakers, shockproof rubber pad, aluminium alloy · PN: AM2604", price:87.17 },
+  { id:268, name:"AUXDIO AM2701 Professional Entertainment Speaker (8+1)", description:"KTV Sound · 8-inch + 1-inch neodymium tweeter, 55Hz-20kHz, 93dB · PN: AM2701", price:737.64 },
+  { id:269, name:"AUXDIO AM2801 Professional Entertainment Speaker (10+1)", description:"KTV Sound · 10-inch LF + 1-inch HF neodymium tweeter, 40Hz-20kHz, 94dB · PN: AM2801", price:840.27 },
+  { id:270, name:"AUXDIO AM2605 All-metal Speaker Bracket 80cm", description:"KTV Sound · 80cm, fits 6.5-12-inch speakers, shockproof rubber pad, aluminium alloy · PN: AM2605", price:102.64 },
+  { id:271, name:"HICHANG I6 21.5-inch 4K Karaoke Song Station", description:"Karaoke · Quad-core ARM A53, 21.5-inch 4K touch, 2GB/8GB, 3TB HDD, ESS9023 HiFi DAC · PN: HICHANG-I6", price:484.71 },
+
   // ========== HIKVISION PRICE LIST (UGX) ==========
   { id:171, name:"HIK DVR 4CH 1080P (DS-7204HGHI-M1)", description:"CCTV · HIK VISION Analog DVR · 4CH HGHI 1080P · PN: 300229094", price:120000.00 },
   { id:172, name:"HIK DVR 8CH 1080P (DS-7208HGHI-M1)", description:"CCTV · HIK VISION Analog DVR · 8CH HGHI 1080P · PN: 300229095", price:150000.00 },
@@ -35683,7 +35724,10 @@ function refreshItemDropdown() {
     { label: '📞 Telephony & VoIP',            keys: ['voip','sip','pbx','ip phone','dect','nurse call','door phone','telephone'] },
     { label: '⚡ Power & Building Mgmt',       keys: ['ev charg','energy meter','solar','transfer switch','pdu','building autom','bacnet','modbus'] },
     { label: '🚨 EVAC Systems',               keys: ['evac','emergency voice','evacuation','warden','wip','evac horn','evac speaker','evac amp','evac panel'] },
-    { label: '🎬 Cinema & Screening',          keys: ['cinema','dci','imb','screening','dolby','atmos','acoustic panel','bass trap','tiered seating','movie','cinema screen','cinema amp'] },
+    { label: '🎬 Cinema & Screening',          keys: ['cinema · home theater','dci','imb','screening','cinema screen','cinema amp','cinema acoustic'] },
+    { label: '🏠🎬 Home Theater',              keys: ['home theater','king series','prince series','queen series','knight series','auxdio am6','5.1-ch av receiver','5.1-channel','dolby atmos decoder','blu-ray media player','8-channel power amplifier'] },
+    { label: '🎤 KTV / Karaoke',              keys: ['ktv sound','karaoke','ktv','hichang','auxdio am25','auxdio am26','auxdio am27','auxdio am28','entertainment speaker','active subwoofer','power amplifier','karaoke song station'] },
+    { label: '🎤 Home Theater / KTV',           keys: ['home theater','ktv sound','karaoke','auxdio','hichang','av receiver','king series','prince series','queen series','knight series','power amplifier','entertainment speaker','active subwoofer','song station'] },
     { label: '🏠 Home Automation',             keys: ['home automation','smart home','lutron','control4','z-wave','caseta','smart thermostat','smart doorbell','smart blind','smart irrigation','smart touchpanel','multi-room audio','in-ceiling audio','landscape speaker','energy dashboard'] },
     { label: '📷 Hikvision',                   keys: ['hik vision','hikvision','hik dvr','hik nvr','hik ip','hik eco','hik ptz','hik colorvu','hik 3k'] },
     { label: '💾 Storage / Drives',              keys: ['storage','hdd','ssd','flash disk','memory card','surveillance hard','sandisk','wd purple','nvme','sata','m.2'] },
