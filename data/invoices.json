@@ -1640,6 +1640,1038 @@
       "name": "HICHANG I6 21.5-inch 4K Karaoke Song Station",
       "description": "Karaoke · Quad-core ARM A53, 21.5-inch 4K touch, 2GB/8GB, 3TB HDD, ESS9023 HiFi DAC · PN: HICHANG-I6",
       "price": 484.71
+    },
+    {
+      "id": 272,
+      "name": "DSPPA MP35 35W Mini Digital Mixer Amplifier",
+      "description": "PA Audio · DSPPA · 1U, 70V/100V & 4-16Ω, RCA in/out, digital amp module · Model: MP35",
+      "price": 50.29
+    },
+    {
+      "id": 273,
+      "name": "DSPPA MP35UB 35W Mixer Amp USB Bluetooth",
+      "description": "PA Audio · DSPPA · 1.5U, 70V/100V, MP3/FM/Bluetooth, 2 Mic + 1 EMC + 2 line inputs · Model: MP35UB",
+      "price": 51.98
+    },
+    {
+      "id": 274,
+      "name": "DSPPA MP9306U 60W Mixer Amp USB Bluetooth",
+      "description": "PA Audio · DSPPA · 100V output, 85% efficiency, 2 AUX+2 Mic inputs, priority function · Model: MP9306U",
+      "price": 69.3
+    },
+    {
+      "id": 275,
+      "name": "DSPPA MP9306D 60W Mixer Amp USB BT DC24V",
+      "description": "PA Audio · DSPPA · 100V output, DC24V powered, USB/Bluetooth, 2 AUX+2 Mic · Model: MP9306D",
+      "price": 74.25
+    },
+    {
+      "id": 276,
+      "name": "DSPPA MP135 30W Multifunction Mixer Amp",
+      "description": "PA Audio · DSPPA · 2-zone, SD/USB/AUX, relay/reverb/mute/record/repeat, treble/bass control · Model: MP135",
+      "price": 49.74
+    },
+    {
+      "id": 277,
+      "name": "DSPPA MP1120 120W Multifunction Mixer Amp",
+      "description": "PA Audio · DSPPA · 2-zone, SD/USB/AUX, relay/reverb/mute/record/repeat, LED status · Model: MP1120",
+      "price": 72.11
+    },
+    {
+      "id": 278,
+      "name": "DSPPA DMA60U 60W Mixer Amp USB/BT/FM/4Mic",
+      "description": "PA Audio · DSPPA · 70V/100V, 3 Mic+2 AUX+2 EMC, USB/FM/Bluetooth, 19-inch rack · Model: DMA60U",
+      "price": 99
+    },
+    {
+      "id": 279,
+      "name": "DSPPA MP200PIII 60W Mixer Amp 3Mic 2AUX",
+      "description": "PA Audio · DSPPA · 70V/100V & 4-16Ω, 3 mic inputs w/ priority, 2 AUX line · Model: MP200PIII",
+      "price": 66.74
+    },
+    {
+      "id": 280,
+      "name": "DSPPA DA3245 450W Mixer Amp 3Mic 2AUX",
+      "description": "PA Audio · DSPPA · 100V/70V constant voltage, 3 Mic+2 AUX, mute & priority function · Model: DA3245",
+      "price": 219.99
+    },
+    {
+      "id": 281,
+      "name": "DSPPA MP60B 60W Mixer Amp 4Mic 2AUX USB",
+      "description": "PA Audio · DSPPA · 100V output, USB front panel, 4 Mic w/ priority, 2 AUX line · Model: MP60B",
+      "price": 86.43
+    },
+    {
+      "id": 282,
+      "name": "DSPPA DMA20 6-Zone Remote Control Station",
+      "description": "PA Audio · DSPPA · RJ-45 power/signal, built-in chime, one-touch-to-talk, cascaded linkage · Model: DMA20",
+      "price": 77.79
+    },
+    {
+      "id": 283,
+      "name": "DSPPA DMA6250U 250W 6-Zone Mixing Amp",
+      "description": "PA Audio · DSPPA · 70V/100V, BT/USB/FM/Chime/Siren, 4 Mic+2AUX+2 remote paging, 19-inch rack · Model: DMA6250U",
+      "price": 217.01
+    },
+    {
+      "id": 284,
+      "name": "DSPPA MP600U 250W 2-Zone Mixer Amp Remote Paging",
+      "description": "PA Audio · DSPPA · 70V/100V, 4 Mic+2 AUX, USB/FM/Bluetooth, 2 remote paging stations · Model: MP600U",
+      "price": 185.43
+    },
+    {
+      "id": 285,
+      "name": "DSPPA RM20 2-Zone Remote Paging Microphone",
+      "description": "PA Audio · DSPPA · RJ-45 power/signal, built-in chime, cascaded linkage · Model: RM20",
+      "price": 57.99
+    },
+    {
+      "id": 286,
+      "name": "DSPPA MP210U 60W 6-Zone Paging Mixer Amp",
+      "description": "PA Audio · DSPPA · 100V, SD/USB/FM, 4 Mic w/ priority+phantom power, individual volume · Model: MP210U",
+      "price": 141.43
+    },
+    {
+      "id": 287,
+      "name": "DSPPA MP210UB 60W 6-Zone Mixing Amp 4Mic Phantom",
+      "description": "PA Audio · DSPPA · 100V, SD/USB/FM, 4 Mic w/ priority+phantom power · Model: MP210UB",
+      "price": 150.86
+    },
+    {
+      "id": 288,
+      "name": "DSPPA MP210P 60W 6-Zone Mixer Amp 4Mic 3AUX",
+      "description": "PA Audio · DSPPA · 70V/100V, phantom power, 3 mic w/ priority, 2 AUX line · Model: MP210P",
+      "price": 113.46
+    },
+    {
+      "id": 289,
+      "name": "DSPPA MP812 120W 6-Zone Integrated Mixer Amp",
+      "description": "PA Audio · DSPPA · Individual zone volume, AUX/USB/Bluetooth, 4 remote paging w/ CM12, phantom 48V · Model: MP812",
+      "price": 227.95
+    },
+    {
+      "id": 290,
+      "name": "DSPPA CM12 PA System Remote Paging Microphone",
+      "description": "PA Audio · DSPPA · 6-zone management, 2 chimes, RJ45 cascaded, 400m range · Model: CM12",
+      "price": 84.98
+    },
+    {
+      "id": 291,
+      "name": "DSPPA MP906 4x60W Matrix Mixer Amp Remote Paging",
+      "description": "PA Audio · DSPPA · 4 separate 60W outputs, AUX/USB/Bluetooth, 3 balanced Mic w/ phantom 48V · Model: MP906",
+      "price": 452.57
+    },
+    {
+      "id": 292,
+      "name": "DSPPA MP2708 100V 80W 6-Zone Mixer Amp Timer",
+      "description": "PA Audio · DSPPA · 80-600W RMS variants, USB/MP3/Radio/BT, 6-ch independent, 4.3-inch TFT touch, 100+ timer programs · Model: MP2708",
+      "price": 232.05
+    },
+    {
+      "id": 293,
+      "name": "DSPPA MA2250U Multimedia Mosque Amplifier",
+      "description": "PA Audio · DSPPA · 70V/100V, 2x250W, separate 2-ch volume/echo/bass/treble, 3 Mic+1 AUX+chime · Model: MA2250U",
+      "price": 183.07
+    },
+    {
+      "id": 294,
+      "name": "DSPPA MP6212 120W Mixer Amp 6-input DC24V",
+      "description": "PA Audio · DSPPA · 5 Mic + 1 AUX + 1 fire alarm input, Mic priority function, DC24V power · Model: MP6212",
+      "price": 149.41
+    },
+    {
+      "id": 295,
+      "name": "DSPPA MK6906 2x60W Stereo Mixer Amp 4Mic 7-Band EQ",
+      "description": "PA Audio · DSPPA · 8Ω stereo, 4 Mic w/ phantom 48V, USB MP3, 3 stereo AUX, 7-band EQ · Model: MK6906",
+      "price": 122.64
+    },
+    {
+      "id": 296,
+      "name": "DSPPA DM848 8-Zone Music Host with Amplifier",
+      "description": "PA Audio · DSPPA · 5-inch TFT HD, 8-ch audio output, DLNA/AirPlay, independent timing+memory · Model: DM848",
+      "price": 267.14
+    },
+    {
+      "id": 297,
+      "name": "DSPPA DM835 2x10W Bluetooth On-wall Music Amp",
+      "description": "PA Audio · DSPPA · BT/FM/SD/USB, AUX in/out, IR remote, standard 86 wall case · Model: DM835B/W/U",
+      "price": 29.04
+    },
+    {
+      "id": 298,
+      "name": "DSPPA M2W Music Amp with 2 Ceiling Speakers",
+      "description": "PA Audio · DSPPA · 2x10W amp + 2 ceiling speakers kit, BT/FM/SD/USB, AUX in/out · Model: M2W",
+      "price": 36.14
+    },
+    {
+      "id": 299,
+      "name": "DSPPA DM839B Touch Screen In-wall Music Amp Intercom",
+      "description": "PA Audio · DSPPA · 2x10W @8Ω, multi-source incl. BT/Net radio/AUX, 4-inch IPS touch, intercom · Model: DM839B",
+      "price": 102.14
+    },
+    {
+      "id": 300,
+      "name": "DSPPA DM838 2x20W Network On-wall Music Amp",
+      "description": "PA Audio · DSPPA · 5-inch capacitive touch, Sigma DSP, BT/SD/AUX/Net radio/AirPlay/DLNA · Model: DM838B/W",
+      "price": 139.07
+    },
+    {
+      "id": 301,
+      "name": "DSPPA DM858 4x20W WiFi Music Amplifier",
+      "description": "PA Audio · DSPPA · 7-inch IPS touch, Hi-Fi 4-ch digital amp, BT/SD/AUX/Net radio/AirPlay/DLNA · Model: DM858",
+      "price": 171.29
+    },
+    {
+      "id": 302,
+      "name": "DSPPA DM836 2x20W Network On-wall Music Amp",
+      "description": "PA Audio · DSPPA · 2x12W@8Ω, IR remote, BT/Net radio/SD/AUX, MP3/WMA/WAV/APE/FLAC · Model: DM836W/S/B",
+      "price": 119.41
+    },
+    {
+      "id": 303,
+      "name": "DSPPA Mini40 2x20W Mini Bluetooth Amplifier",
+      "description": "PA Audio · DSPPA · 4-16Ω, stereo 2x20W, BT/AUX, aluminum case, Class D · Model: Mini40",
+      "price": 17.46
+    },
+    {
+      "id": 304,
+      "name": "DSPPA Mini60 2x30W Mini Digital Amp USB Bluetooth",
+      "description": "PA Audio · DSPPA · 4-16Ω, Class D, BT 3.0/USB/SD, voice recording AUX mode · Model: Mini60",
+      "price": 37.44
+    },
+    {
+      "id": 305,
+      "name": "DSPPA Mini40II Bluetooth Power Amplifier",
+      "description": "PA Audio · DSPPA · 2x20W stereo, 8Ω, BT 2.1+EDR, aluminum-alloy casing · Model: Mini40II",
+      "price": 25
+    },
+    {
+      "id": 306,
+      "name": "DSPPA Mini50 Stereo Bluetooth USB Digital Amp",
+      "description": "PA Audio · DSPPA · 2x40W@4Ω or 2x20W@8Ω, BT 5.0/USB, 5 preset EQ modes · Model: Mini50",
+      "price": 40
+    },
+    {
+      "id": 307,
+      "name": "DSPPA Mini260 Stereo Bluetooth Audio Amplifier",
+      "description": "PA Audio · DSPPA · 2x60W@4Ω or 2x30W@8Ω, BT 5.1, 2 AUX in+1 out, remote control · Model: Mini260",
+      "price": 126.34
+    },
+    {
+      "id": 308,
+      "name": "DSPPA DA2125 2x125W Digital Power Amplifier",
+      "description": "PA Audio · DSPPA · 1U/19-inch, 85% efficiency, 2-ch w/ 2 priority inputs, 2x100V inputs · Model: DA2125",
+      "price": 233.36
+    },
+    {
+      "id": 309,
+      "name": "DSPPA DA4060 4x60W Digital Power Amplifier",
+      "description": "PA Audio · DSPPA · 19-inch rack, 70V/100V optional, priority input, standby power saving · Model: DA4060",
+      "price": 220.39
+    },
+    {
+      "id": 310,
+      "name": "DSPPA DA250 250W 1-Channel Digital Power Amp",
+      "description": "PA Audio · DSPPA · 1U/19-inch, priority line+100V input, 70V/100V output, industrial design · Model: DA250",
+      "price": 204.29
+    },
+    {
+      "id": 311,
+      "name": "DSPPA DA3350 450W 1-Channel Digital Power Amp",
+      "description": "PA Audio · DSPPA · Class D, 100V/70V constant voltage, short-circuit & overheat protection · Model: DA3350",
+      "price": 189.67
+    },
+    {
+      "id": 312,
+      "name": "DSPPA DA3850 1500W 1-Channel Digital Power Amp",
+      "description": "PA Audio · DSPPA · Class D, 100V/70V constant voltage, full DC output protection · Model: DA3850",
+      "price": 464.83
+    },
+    {
+      "id": 313,
+      "name": "DSPPA DA8060 9x60W 8-Channel Digital Amplifier",
+      "description": "PA Audio · DSPPA · Touch screen, 8 main+1 standby amp, active/standby switching, independent I/O · Model: DA8060",
+      "price": 1322.36
+    },
+    {
+      "id": 314,
+      "name": "DSPPA MAG1306II 2x60W Dual Channel Power Amp",
+      "description": "PA Audio · DSPPA · 70V/100V/200V convertible, 6.3mm+XLR input each channel, EMC short-circuit input · Model: MAG1306II",
+      "price": 160.29
+    },
+    {
+      "id": 315,
+      "name": "DSPPA MP6425 250W Power Amplifier DC24V",
+      "description": "PA Audio · DSPPA · 70V/100V & 4Ω optional, XLR+6.3mm AUX out, auto temp-controlled fan · Model: MP6425",
+      "price": 201.37
+    },
+    {
+      "id": 316,
+      "name": "DSPPA MP1500 350W Power Amplifier",
+      "description": "PA Audio · DSPPA · Total volume control, 70V/100V & 4-16Ω flexible output, XLR+6.3mm AUX · Model: MP1500",
+      "price": 193.68
+    },
+    {
+      "id": 317,
+      "name": "DSPPA MP3000 1000W Power Amplifier",
+      "description": "PA Audio · DSPPA · High power, industrial design, 70V/100V & 4-16Ω flexible output · Model: MP3000",
+      "price": 534.29
+    },
+    {
+      "id": 318,
+      "name": "DSPPA DMX08 8-Channel Audio Mixer",
+      "description": "PA Audio · DSPPA · XLR balance mono, 3-EQ per channel, 48V phantom power, 16 DSP effects, USB MP3 · Model: DMX08",
+      "price": 136.7
+    },
+    {
+      "id": 319,
+      "name": "DSPPA DSP3011 3-inch Frameless Ceiling Speaker",
+      "description": "PA Speaker · DSPPA · 6W, 70V/100V, 88dB sensitivity, aluminum grille · Model: DSP3011",
+      "price": 3.55
+    },
+    {
+      "id": 320,
+      "name": "DSPPA DSP114 4.5-inch Ceiling Speaker",
+      "description": "PA Speaker · DSPPA · 3W, built-in transformer, 98dB max SPL, engineering plastic · Model: DSP114",
+      "price": 3.99
+    },
+    {
+      "id": 321,
+      "name": "DSPPA DSP501 4.5-inch Round Ceiling Speaker",
+      "description": "PA Speaker · DSPPA · 6W, 70/100V multi-tap, 96dB max SPL, ABS/aluminum grille · Model: DSP501",
+      "price": 6.16
+    },
+    {
+      "id": 322,
+      "name": "DSPPA DSP551 4.5-inch Square Ceiling Speaker",
+      "description": "PA Speaker · DSPPA · 6W, 70/100V, in-wall type, ABS enclosure, fast spring-clip install · Model: DSP551",
+      "price": 7.87
+    },
+    {
+      "id": 323,
+      "name": "DSPPA DSP504 4.5-inch Frameless Surface Mount",
+      "description": "PA Speaker · DSPPA · 1.5-10W, 70/100V, ABS white, direct screw mount · Model: DSP504",
+      "price": 5.42
+    },
+    {
+      "id": 324,
+      "name": "DSPPA DSP5311 6.5-inch Frameless Surface Mount",
+      "description": "PA Speaker · DSPPA · 3-6W multi-tap, narrow edge aluminum grille, 100dB max SPL · Model: DSP5311",
+      "price": 8.86
+    },
+    {
+      "id": 325,
+      "name": "DSPPA DSP6011 6.5-inch Ceiling Speaker",
+      "description": "PA Speaker · DSPPA · 6W, 70/100V, frameless aluminum grille, 98dB max SPL · Model: DSP6011",
+      "price": 4.47
+    },
+    {
+      "id": 326,
+      "name": "DSPPA DSP6506L 6.5-inch Ceiling Speaker 8Ω",
+      "description": "PA Speaker · DSPPA · 6W, 8Ω, frameless aluminum grille, 98dB max SPL · Model: DSP6506L",
+      "price": 3.66
+    },
+    {
+      "id": 327,
+      "name": "DSPPA DSP3154EN 10W EN54 Fireproof Speaker",
+      "description": "PA Speaker · DSPPA · EN54-24 compliant, 100V transformer, fire dome wire protection · Model: DSP3154EN",
+      "price": 8.98
+    },
+    {
+      "id": 328,
+      "name": "DSPPA DSP8030 30W Frameless Coaxial Ceiling Speaker",
+      "description": "PA Speaker · DSPPA · 8-inch + 1-inch tweeter, 70V/100V, 103dB max SPL · Model: DSP8030",
+      "price": 18.82
+    },
+    {
+      "id": 329,
+      "name": "DSPPA DSP802 6W 6.5-inch Ceiling Speaker",
+      "description": "PA Speaker · DSPPA · 1.5-10W, 70V/100V, spring-clip install, ABS white · Model: DSP802",
+      "price": 7.74
+    },
+    {
+      "id": 330,
+      "name": "DSPPA DSP211 50W Subwoofer Ceiling Speaker",
+      "description": "PA Speaker · DSPPA · 8-inch fireproof steel housing, 8Ω/Off/100V switch, 101dB max SPL · Model: DSP211",
+      "price": 59.12
+    },
+    {
+      "id": 331,
+      "name": "DSPPA DSP8830 30W Frameless Coaxial Ceiling Speaker",
+      "description": "PA Speaker · DSPPA · 8-inch+1-inch coaxial, 70V/100V, rotating clip install · Model: DSP8830",
+      "price": 23.68
+    },
+    {
+      "id": 332,
+      "name": "DSPPA DSP915 20W Coaxial Ceiling Speaker w/ Power Tap",
+      "description": "PA Speaker · DSPPA · 5-inch+1-inch coaxial, dual-crossover, 103dB max SPL · Model: DSP915",
+      "price": 32.09
+    },
+    {
+      "id": 333,
+      "name": "DSPPA DSP901 6W Ceiling Speaker w/ Fire Dome",
+      "description": "PA Speaker · DSPPA · 70V/100V, leaded wire fireproof case, high-class steel · Model: DSP901",
+      "price": 7.22
+    },
+    {
+      "id": 334,
+      "name": "DSPPA DSP922 15W Two-way Steel Ceiling Speaker Fire Dome",
+      "description": "PA Speaker · DSPPA · 2-way, waterproof driver, fireproof leaded wire case · Model: DSP922",
+      "price": 26.23
+    },
+    {
+      "id": 335,
+      "name": "DSPPA DSP116II 6W Wall Mount Speaker",
+      "description": "PA Speaker · DSPPA · 4.5-inch full freq, E-type copper transformer, 100dB max SPL · Model: DSP116II",
+      "price": 5.53
+    },
+    {
+      "id": 336,
+      "name": "DSPPA DSP118 10W Miniature Satellite Speaker 8Ω",
+      "description": "PA Speaker · DSPPA · 2.75-inch driver, quick bracket install, ideal for offices/hotels · Model: DSP118",
+      "price": 12.7
+    },
+    {
+      "id": 337,
+      "name": "DSPPA DSP129 20W Miniature Satellite Coaxial Speaker",
+      "description": "PA Speaker · DSPPA · 4.5-inch coaxial, 100V & 8Ω, optional power tap · Model: DSP129",
+      "price": 15.4
+    },
+    {
+      "id": 338,
+      "name": "DSPPA DSP402 20W Wall Mount Speaker 2-way Coaxial",
+      "description": "PA Speaker · DSPPA · 4-inch 2-way, 70/100V, adjustable wall mount, ABS body · Model: DSP402B/W",
+      "price": 16.19
+    },
+    {
+      "id": 339,
+      "name": "DSPPA DSP112 6W Wall Mount Speaker",
+      "description": "PA Speaker · DSPPA · Multiple terminals, horizontal/vertical install, engineering plastic · Model: DSP112",
+      "price": 6.01
+    },
+    {
+      "id": 340,
+      "name": "DSPPA DSP106II 10W Wall Mount Speaker",
+      "description": "PA Speaker · DSPPA · 70/100V, 1.5-10W, 100dB max SPL, engineering plastic · Model: DSP106II",
+      "price": 10.02
+    },
+    {
+      "id": 341,
+      "name": "DSPPA DSP406II 10W Wall Mount Speaker",
+      "description": "PA Speaker · DSPPA · 4.5-inch driver, 70-100V, 99dB max SPL · Model: DSP406II",
+      "price": 9.35
+    },
+    {
+      "id": 342,
+      "name": "DSPPA DSP8062 20W Wall Mount Speaker w/ Power Tap",
+      "description": "PA Speaker · DSPPA · 70/100V/8Ω, 103dB max SPL, aluminum grille black/white · Model: DSP8062B/W",
+      "price": 21.37
+    },
+    {
+      "id": 343,
+      "name": "DSPPA DSP6061II 20W Wall Mount Speaker",
+      "description": "PA Speaker · DSPPA · 4-inch+1-inch, 100V, 103dB SPL · Model: DSP6061IIB/W",
+      "price": 21.37
+    },
+    {
+      "id": 344,
+      "name": "DSPPA DSP2601 20W Waterproof Wall Mount w/ Power Tap",
+      "description": "PA Speaker · DSPPA · 70V/100V/8Ω, aluminum net+ABS, 103dB max SPL · Model: DSP2601",
+      "price": 32.99
+    },
+    {
+      "id": 345,
+      "name": "DSPPA DSP220 40W Wallmount Speaker",
+      "description": "PA Speaker · DSPPA · 70V/100V, aluminum net+ABS, 106dB max SPL · Model: DSP220",
+      "price": 62.86
+    },
+    {
+      "id": 346,
+      "name": "DSPPA DSP506 20W Wall Mount Speaker",
+      "description": "PA Speaker · DSPPA · 70/100V, 10-20W, high beaver-board, hanging hole mount · Model: DSP506",
+      "price": 65.45
+    },
+    {
+      "id": 347,
+      "name": "DSPPA DSP218 Two-way Wall Mount Speaker Power Tap 360°",
+      "description": "PA Speaker · DSPPA · 100V/4Ω, dual-crossover, 104dB max SPL, multi-install options · Model: DSP218B/W",
+      "price": 44
+    },
+    {
+      "id": 348,
+      "name": "DSPPA DSP5020 20W Waterproof Outdoor Wall Mount",
+      "description": "PA Speaker · DSPPA · IP66 all-weather, bass enhancement radiator, 70V/100V & 8Ω power tap · Model: DSP5020",
+      "price": 52.56
+    },
+    {
+      "id": 349,
+      "name": "DSPPA DSP7043 30W Waterproof Wall Mount Speaker",
+      "description": "PA Speaker · DSPPA · 2-way, 4.5-inch bass+1-inch tweeter, 70V/100V or 8Ω · Model: DSP7043B/W",
+      "price": 42.54
+    },
+    {
+      "id": 350,
+      "name": "DSPPA DSP255II Waterproof Column Speaker",
+      "description": "PA Speaker · DSPPA · 30W, dual 3-inch woofer+1-inch tweeter, aluminum housing · Model: DSP255IIB/W",
+      "price": 34.89
+    },
+    {
+      "id": 351,
+      "name": "DSPPA DSP203II 15W Indoor Column Speaker",
+      "description": "PA Speaker · DSPPA · 70/100V, fibreboard+birch leather, clear bright sound · Model: DSP203II",
+      "price": 14.96
+    },
+    {
+      "id": 352,
+      "name": "DSPPA DSP223II 8W Indoor Column Speaker",
+      "description": "PA Speaker · DSPPA · 70/100V, fibreboard+birch leather, mounting bracket · Model: DSP223II",
+      "price": 13.36
+    },
+    {
+      "id": 353,
+      "name": "DSPPA DSP205 Waterproof Column Speaker",
+      "description": "PA Speaker · DSPPA · 20W, aluminum net cover, 102dB max SPL · Model: DSP205",
+      "price": 30.72
+    },
+    {
+      "id": 354,
+      "name": "DSPPA DSP188 15W Dual-face Waterproof Column",
+      "description": "PA Speaker · DSPPA · 70/100V, IP66, aluminum enclosure, dual direction · Model: DSP188",
+      "price": 38.07
+    },
+    {
+      "id": 355,
+      "name": "DSPPA DSP8114 60W Waterproof Column Speaker",
+      "description": "PA Speaker · DSPPA · 70/100V, IP66, 2x6.5-inch+1-inch full range drivers · Model: DSP8114W/G",
+      "price": 89.49
+    },
+    {
+      "id": 356,
+      "name": "DSPPA DSP108 10W Two-way Waterproof Column",
+      "description": "PA Speaker · DSPPA · 70/100V, aluminum, 4-inch+2.5-inch full range drivers · Model: DSP108",
+      "price": 19.2
+    },
+    {
+      "id": 357,
+      "name": "DSPPA DSP158 40W Waterproof Column Speaker",
+      "description": "PA Speaker · DSPPA · 70/100V, IPX6, aluminum enclosure, dual-crossover wide freq · Model: DSP158",
+      "price": 50.09
+    },
+    {
+      "id": 358,
+      "name": "DSPPA DSP6114 20W Waterproof Column Speaker",
+      "description": "PA Speaker · DSPPA · High sensitivity, E-type transformer, waterproof design · Model: DSP6114B/W",
+      "price": 31.43
+    },
+    {
+      "id": 359,
+      "name": "DSPPA DSP241 60W 4.5-inch Column Speaker",
+      "description": "PA Speaker · DSPPA · 100V, dual 4.5-inch + 1-inch tweeter, 91dB sensitivity · Model: DSP241",
+      "price": 81.61
+    },
+    {
+      "id": 360,
+      "name": "DSPPA DSP170 30W Horn Speaker",
+      "description": "PA Speaker · DSPPA · 70V/100V, 117dB max SPL, strong ABS body · Model: DSP170",
+      "price": 32.99
+    },
+    {
+      "id": 361,
+      "name": "DSPPA DSP161HD 25W High Fidelity Horn Speaker",
+      "description": "PA Speaker · DSPPA · 70/100V, double driver, waterproof, 118dB max SPL · Model: DSP161HD",
+      "price": 34.73
+    },
+    {
+      "id": 362,
+      "name": "DSPPA DSP154H 15W Horn Speaker",
+      "description": "PA Speaker · DSPPA · 70/100V, IPX6 waterproof, 117dB max SPL, brackets included · Model: DSP154H",
+      "price": 24.04
+    },
+    {
+      "id": 363,
+      "name": "DSPPA DSP168HD 50W High Fidelity Horn Speaker",
+      "description": "PA Speaker · DSPPA · Alloy-aluminum surface net, ABS, 120dB max SPL · Model: DSP168HD",
+      "price": 90.83
+    },
+    {
+      "id": 364,
+      "name": "DSPPA DSP364 10W Horn Speaker",
+      "description": "PA Speaker · DSPPA · IP66 waterproof, ABS+metal bracket, 106dB max SPL · Model: DSP364",
+      "price": 26.71
+    },
+    {
+      "id": 365,
+      "name": "DSPPA DSP1202A 250W Wall Mount Horn Speaker",
+      "description": "PA Speaker · DSPPA · Outdoor waterproof, 118dB max SPL, bracket equipped · Model: DSP1202A",
+      "price": 126.89
+    },
+    {
+      "id": 366,
+      "name": "DSPPA DSP3008A 150W Sound Master Horn Speaker",
+      "description": "PA Speaker · DSPPA · 70° x 50° dispersion, 124dB max SPL, 3-point mounting · Model: DSP3008A",
+      "price": 208.78
+    },
+    {
+      "id": 367,
+      "name": "DSPPA DSP3008H 8-inch Compact Commercial Loudspeaker",
+      "description": "PA Speaker · DSPPA · 15-120W variable @100V/70V/8Ω, 95dB sensitivity, <110° beam angle · Model: DSP3008H",
+      "price": 180.87
+    },
+    {
+      "id": 368,
+      "name": "DSPPA DSP107W 15W Pendant Sound Projector",
+      "description": "PA Speaker · DSPPA · 70V/100V, adjustable hanging style, industrial plastic · Model: DSP107W",
+      "price": 20.04
+    },
+    {
+      "id": 369,
+      "name": "DSPPA DSP4053P 30W Weatherproof Pendant Speaker",
+      "description": "PA Speaker · DSPPA · IP66, 8Ω/70V/100V power tap, 5-inch bass+1-inch treble · Model: DSP4053P",
+      "price": 35.54
+    },
+    {
+      "id": 370,
+      "name": "DSPPA DSP207II 20W Wall Mount Sound Projector",
+      "description": "PA Speaker · DSPPA · Moistureproof, coaxial 5-inch woofer+0.75-inch tweeter · Model: DSP207II",
+      "price": 17.13
+    },
+    {
+      "id": 371,
+      "name": "DSPPA DSP647 15W Rock Speaker",
+      "description": "PA Speaker · DSPPA · 70/100V, IP66 waterproof, garden landscape design · Model: DSP647",
+      "price": 26.71
+    },
+    {
+      "id": 372,
+      "name": "DSPPA DSP670 Outdoor Lawn Speaker with Light",
+      "description": "PA Speaker · DSPPA · Built-in sensor LED, high-strength resin, waterproof · Model: DSP670",
+      "price": 44.67
+    },
+    {
+      "id": 373,
+      "name": "DSPPA DSP642 10W Rock Speaker",
+      "description": "PA Speaker · DSPPA · 70/100V, IP65, heavy damage proof resin · Model: DSP642",
+      "price": 29.39
+    },
+    {
+      "id": 374,
+      "name": "DSPPA DSP643 20W Rock Speaker",
+      "description": "PA Speaker · DSPPA · 70/100V, IP65, heavy damage proof resin · Model: DSP643",
+      "price": 26.71
+    },
+    {
+      "id": 375,
+      "name": "DSPPA DSP620 20W Mushroom Speaker",
+      "description": "PA Speaker · DSPPA · 360° directional, 6.5-inch driver, engineering plastic · Model: DSP620",
+      "price": 29.39
+    },
+    {
+      "id": 376,
+      "name": "DSPPA DSP651 15W Garden Speaker",
+      "description": "PA Speaker · DSPPA · 70/100V, IPX6, 5-inch+1-inch driver, resin construction · Model: DSP651",
+      "price": 44.08
+    },
+    {
+      "id": 377,
+      "name": "DSPPA DSP653 10W Garden Speaker",
+      "description": "PA Speaker · DSPPA · 70/100V, IPX6, 4.5-inch driver, resin construction · Model: DSP653",
+      "price": 40.07
+    },
+    {
+      "id": 378,
+      "name": "DSPPA DSP3601 23W Landscape Garden Speaker",
+      "description": "PA Speaker · DSPPA · 70/100V, IPX6, 6.5-inch+3-inch driver · Model: DSP3601",
+      "price": 53.43
+    },
+    {
+      "id": 379,
+      "name": "DSPPA DSP660W 15W Lamp Shape Garden Speaker w/ Lights",
+      "description": "PA Speaker · DSPPA · 70/100V, IPX6 waterproof, integrated lighting · Model: DSP660W",
+      "price": 70.79
+    },
+    {
+      "id": 380,
+      "name": "DSPPA DSP40I 40W Invisible Speaker",
+      "description": "PA Speaker · DSPPA · 100V, UL certified, in-wall flush mount · Model: DSP40I",
+      "price": 90.36
+    },
+    {
+      "id": 381,
+      "name": "DSPPA AUX50I Invisible Speaker",
+      "description": "PA Speaker · DSPPA · 8Ω, 20W, non-directional transmission · Model: AUX50I",
+      "price": 125.4
+    },
+    {
+      "id": 382,
+      "name": "DSPPA DSP6604 2x20W Multimedia Wall Mount Speaker",
+      "description": "PA Speaker · DSPPA · AUX/Mic/priority AUX inputs, bass/treble control · Model: DSP6604B/W",
+      "price": 78.45
+    },
+    {
+      "id": 383,
+      "name": "DSPPA DSP6609 Pendant Speaker 2.4G Wireless",
+      "description": "PA Speaker · DSPPA · Teaching audio loudspeaker w/ mic, 4x10W amp, 99-channel support · Model: DSP6609",
+      "price": 173.01
+    },
+    {
+      "id": 384,
+      "name": "DSPPA DSP170A 15W Active Horn Speaker",
+      "description": "PA Speaker · DSPPA · All-weather, ABS plastic, install brackets included · Model: DSP170A",
+      "price": 47.14
+    },
+    {
+      "id": 385,
+      "name": "DSPPA DSP8114A 60W Waterproof Active Column",
+      "description": "PA Speaker · DSPPA · IP65, dual 6.5-inch driver, 108dB max SPL · Model: DSP8114A",
+      "price": 114.87
+    },
+    {
+      "id": 386,
+      "name": "DSPPA DSP408A Active Column Speaker",
+      "description": "PA Speaker · DSPPA · 40W, aluminum, built-in digital broadcasting receiver · Model: DSP408A",
+      "price": 64.11
+    },
+    {
+      "id": 387,
+      "name": "DSPPA DSP8116A 120W Waterproof Active Column",
+      "description": "PA Speaker · DSPPA · IP65, 4x6.5-inch driver, 115dB max SPL · Model: DSP8116A",
+      "price": 196.35
+    },
+    {
+      "id": 388,
+      "name": "DSPPA LA1512 Waterproof Array Speaker",
+      "description": "PA Speaker · DSPPA · 100V 120W, 4.5-inch bass+1-inch treble, 15-60° adjustable directivity · Model: LA1512",
+      "price": 306.43
+    },
+    {
+      "id": 389,
+      "name": "DSPPA LA4212 Professional Line Array Loudspeaker",
+      "description": "PA Speaker · DSPPA · 4 speakers+1 subwoofer, 100x4W+300W, 95dB sensitivity · Model: LA4212",
+      "price": 461.06
+    },
+    {
+      "id": 390,
+      "name": "DSPPA DSP4300B 100W Array Loudspeaker",
+      "description": "PA Speaker · DSPPA · 4x3-inch drivers, aluminum mesh+ABS, 20°x120° coverage · Model: DSP4300B",
+      "price": 149.44
+    },
+    {
+      "id": 391,
+      "name": "DSPPA MAG6801 IP Network Audio Adapter",
+      "description": "IP Network PA · DSPPA · 10M/100M TCP/IP, network-to-audio decoder, AUX out · Model: MAG6801",
+      "price": 120.21
+    },
+    {
+      "id": 392,
+      "name": "DSPPA MAG6415 IP Network Trigger Interface",
+      "description": "IP Network PA · DSPPA · PoE IEEE802.3af/at, 1-ch RS485, 2-ch trigger signals · Model: MAG6415",
+      "price": 75.2
+    },
+    {
+      "id": 393,
+      "name": "DSPPA MAG6401 2x25W IP Network Terminal Amp",
+      "description": "IP Network PA · DSPPA · 4-8Ω output, bridge 50W@8Ω, AUX/Mic/USB/SD inputs · Model: MAG6401",
+      "price": 133.57
+    },
+    {
+      "id": 394,
+      "name": "DSPPA MAG6419 IP Network Terminal Remote Control",
+      "description": "IP Network PA · DSPPA · Built-in 2x25W amp, AUX/Mic/USB/SD multi-source · Model: MAG6419",
+      "price": 180.32
+    },
+    {
+      "id": 395,
+      "name": "DSPPA MAG6806 1U 60W IP Network Amplifier",
+      "description": "IP Network PA · DSPPA · 100V output, digital screen status, AUX+Mic+USB+SD · Model: MAG6806-1U",
+      "price": 175.65
+    },
+    {
+      "id": 396,
+      "name": "DSPPA MAG6806 2U 60W IP Network Amplifier",
+      "description": "IP Network PA · DSPPA · 100V output, digital screen status, AUX+Mic+USB+SD · Model: MAG6806-2U",
+      "price": 214.92
+    },
+    {
+      "id": 397,
+      "name": "DSPPA MAG6463 2x25W IP Network Wall Speaker",
+      "description": "IP Network PA · DSPPA · Built-in decoder+amp, AUX in/out, 100V input · Model: MAG6463B/W",
+      "price": 146.93
+    },
+    {
+      "id": 398,
+      "name": "DSPPA MAG6464 2x25W WiFi Wall Mount Speaker",
+      "description": "IP Network PA · DSPPA · 4Ω, active WiFi speaker, AUX+Mic+EMC I/O · Model: MAG6464",
+      "price": 173.64
+    },
+    {
+      "id": 399,
+      "name": "DSPPA MAG6360 20W Indoor Slave Speaker",
+      "description": "IP Network PA · DSPPA · 4Ω, fiberboard, wall-mounted hanger, 90dB sensitivity · Model: MAG6360",
+      "price": 27.52
+    },
+    {
+      "id": 400,
+      "name": "DSPPA DSP455N Network Outdoor Waterproof Column",
+      "description": "IP Network PA · DSPPA · 10/100M Ethernet, DHCP/static IP, 60W high-fidelity output · Model: DSP455N",
+      "price": 141.45
+    },
+    {
+      "id": 401,
+      "name": "DSPPA MAG6368 2x15W Waterproof IP Network Column",
+      "description": "IP Network PA · DSPPA · Built-in decoder+amp, local volume control · Model: MAG6368",
+      "price": 141.45
+    },
+    {
+      "id": 402,
+      "name": "DSPPA MAG6378 60W Outdoor Waterproof Column",
+      "description": "IP Network PA · DSPPA · All-weather IP column, 89dB sensitivity, ≥70dB SNR · Model: MAG6378",
+      "price": 233.75
+    },
+    {
+      "id": 403,
+      "name": "DSPPA MAG6363G BT Network Teaching Speaker 2.4G Mic",
+      "description": "IP Network PA · DSPPA · 2x15W amp, AUX in/out, 100V input, LED status · Model: MAG6363G",
+      "price": 180.32
+    },
+    {
+      "id": 404,
+      "name": "DSPPA MAG6420II-C Bluetooth Microphone Control Panel",
+      "description": "IP Network PA · DSPPA · RJ45, 485 protocol, 300m+ range, local BT broadcast · Model: MAG6420II-C",
+      "price": 76.8
+    },
+    {
+      "id": 405,
+      "name": "DSPPA POE6311 POE Network Ceiling Speaker",
+      "description": "IP Network PA · DSPPA · 48kHz/16bit decode, 2x9W amp, AUX+Mic+EMC interfaces · Model: POE6311",
+      "price": 82.55
+    },
+    {
+      "id": 406,
+      "name": "DSPPA POE6368 POE Network Column Speaker",
+      "description": "IP Network PA · DSPPA · Waterproof, 89dB sensitivity, 48kHz/16bit decode · Model: POE6368",
+      "price": 123.69
+    },
+    {
+      "id": 407,
+      "name": "DSPPA POE6463 2x10W POE Wall Mount Speaker",
+      "description": "IP Network PA · DSPPA · POE via Cat-5, built-in decoder+amp, AUX+100V input · Model: POE6463B/W",
+      "price": 178.32
+    },
+    {
+      "id": 408,
+      "name": "DSPPA POE255 POE Column Speaker",
+      "description": "IP Network PA · DSPPA · 2x15W@8Ω, POE48V, all-weather waterproof, TCP/IP · Model: POE255",
+      "price": 186.6
+    },
+    {
+      "id": 409,
+      "name": "DSPPA WEP6026 25W Wireless Column Speaker",
+      "description": "IP Network PA · DSPPA · All-weather outdoor, RDS subcarrier decoder, DSP receiver · Model: WEP6026",
+      "price": 62.78
+    },
+    {
+      "id": 410,
+      "name": "DSPPA WEP2364 10W Wireless PA Speaker Solar Panel",
+      "description": "IP Network PA · DSPPA · Solar powered, auto charging controller, low battery alarm · Model: WEP2364",
+      "price": 215.73
+    },
+    {
+      "id": 411,
+      "name": "DSPPA WEP2365 20W Wireless PA Speaker Solar Panel",
+      "description": "IP Network PA · DSPPA · Solar powered, auto charging controller, low battery alarm · Model: WEP2365",
+      "price": 285.21
+    },
+    {
+      "id": 412,
+      "name": "DSPPA AM8328 Network Intelligent Central Music Host",
+      "description": "Intelligent PA · DSPPA · 8-72 zones, 2x100W, 7-inch touchscreen, renamable zones · Model: AM8328",
+      "price": 1254
+    },
+    {
+      "id": 413,
+      "name": "DSPPA BM828RII Wall Mount Control Panel",
+      "description": "Intelligent PA · DSPPA · 3.5-inch TFT touch, works with AM8318/AM8328/AM8328II · Model: BM828RII",
+      "price": 109.85
+    },
+    {
+      "id": 414,
+      "name": "DSPPA AM8318 Network Intelligent Central Music Host",
+      "description": "Intelligent PA · DSPPA · 8 zones, 5-inch TFT touch, network music/radio/MP3/SD · Model: AM8318",
+      "price": 691.43
+    },
+    {
+      "id": 415,
+      "name": "DSPPA MP9807C PA System MP3 CD/VCD/DVD Player",
+      "description": "Automatic PA · DSPPA · CD/MP3/MP4/VCD/DVD, VFD display, auto-play sequence · Model: MP9807C",
+      "price": 80.14
+    },
+    {
+      "id": 416,
+      "name": "DSPPA MP9810RII Remote Paging Station",
+      "description": "Automatic PA · DSPPA · 100-zone control, 2 chimes, 1000m working distance · Model: MP9810RII",
+      "price": 125.82
+    },
+    {
+      "id": 417,
+      "name": "DSPPA PAVA2200 Fireman Microphone",
+      "description": "EVAC · EN54 · DSPPA · Remote control of PAVA2240, EVAC ALERT voice, 500m transmission · Model: PAVA2200",
+      "price": 116.29
+    },
+    {
+      "id": 418,
+      "name": "DSPPA PAVA2240 2-Zone 2x240W Emergency Voice Host",
+      "description": "EVAC · EN54 · DSPPA · 24V battery charger, dual 240W amp modules, speaker line auto-detect · Model: PAVA2240",
+      "price": 470.8
+    },
+    {
+      "id": 419,
+      "name": "DSPPA PAVA2200FM Fireman Microphone",
+      "description": "EVAC · EN54 · DSPPA · Remote control, 300m transmission, redundant wiring support · Model: PAVA2200FM",
+      "price": 116.29
+    },
+    {
+      "id": 420,
+      "name": "DSPPA PAVA8500 500W 8-Zone Voice Evacuation Host",
+      "description": "EVAC · EN54-16 · DSPPA · Extendable to 160 zones, EVAC message+chime, individual zone volume · Model: PAVA8500",
+      "price": 642.24
+    },
+    {
+      "id": 421,
+      "name": "DSPPA PAVA8008 Voice Evacuation Remote Paging Station",
+      "description": "EVAC · EN54-16 · DSPPA · 16 zones per mic, extendable, AC/DC fault indicators · Model: PAVA8008",
+      "price": 212.01
+    },
+    {
+      "id": 422,
+      "name": "DSPPA PAVA8009 Voice Evacuation Fireman Microphone",
+      "description": "EVAC · EN54 · DSPPA · Wall-mounted, programmable buttons, Dante technology, AC220V/POE · Model: PAVA8009",
+      "price": 204.29
+    },
+    {
+      "id": 423,
+      "name": "DSPPA DSP207EN 12W Voice Alarm Outdoor Projector Speaker",
+      "description": "EVAC · EN54-24 / IP54 · DSPPA · Aluminium mesh, ABS dome, anti-UV · Model: DSP207EN",
+      "price": 16.78
+    },
+    {
+      "id": 424,
+      "name": "DSPPA DSP3254EN 10W EN54 Fireproof Speaker",
+      "description": "EVAC · EN54-24 · DSPPA · 100V transformer, 6.5-inch waterproof driver · Model: DSP3254EN",
+      "price": 21.93
+    },
+    {
+      "id": 425,
+      "name": "DSPPA DSP3354EN 10W EN54 Fireproof Speaker",
+      "description": "EVAC · EN54-24 · DSPPA · Painted steel, ceramic terminals, leaded wire fireproof case · Model: DSP3354EN",
+      "price": 23.09
+    },
+    {
+      "id": 426,
+      "name": "DSPPA DSP5311EN Ceiling Speaker EVAC Modified",
+      "description": "EVAC · EN54-24 · DSPPA · Anti-UV, normal transformer, ceramic connector/capacitor/thermal fuse · Model: DSP5311EN",
+      "price": 11.16
+    },
+    {
+      "id": 427,
+      "name": "DSPPA DW0250 WiFi Intelligent Stereo Amplifier",
+      "description": "WiFi Audio · DSPPA · Network streaming, BT5.0 30m, 24bit/192kHz decode · Model: DW0250",
+      "price": 93.97
+    },
+    {
+      "id": 428,
+      "name": "DSPPA DW0235 WiFi Intelligent Stereo Amplifier",
+      "description": "WiFi Audio · DSPPA · Network streaming, BT5.0 30m, 24bit/192kHz decode · Model: DW0235",
+      "price": 70.32
+    },
+    {
+      "id": 429,
+      "name": "DSPPA DW2235 2x35W WiFi Ceiling Speaker",
+      "description": "WiFi Audio · DSPPA · 4Ω, WiFi/BT/AUX, 6.5-inch+1-inch driver, DC24V power · Model: DW2235",
+      "price": 193.6
+    },
+    {
+      "id": 430,
+      "name": "DSPPA DW01 WiFi Intelligent Audio Streamer",
+      "description": "WiFi Audio · DSPPA · Network streaming, BT5.0 30m, 24bit/192kHz decode · Model: DW01",
+      "price": 41.8
+    },
+    {
+      "id": 431,
+      "name": "DSPPA AUX168II 20W Coaxial Ceiling Speaker",
+      "description": "WiFi Audio · DSPPA · 8Ω, 102dB max SPL, 89dB sensitivity · Model: AUX168II",
+      "price": 26.4
+    },
+    {
+      "id": 432,
+      "name": "DSPPA AUX650III 20W Tree Stump Speaker",
+      "description": "WiFi Audio · DSPPA · High-class resin, 4Ω, waterproof driver, garden disguise · Model: AUX650III",
+      "price": 53.41
+    },
+    {
+      "id": 433,
+      "name": "DSPPA DSP1501 100W Digital Column Speaker",
+      "description": "Directional Speaker · DSPPA · 3-direction adjustment, EQ control, 118dB max SPL · Model: DSP1501",
+      "price": 601.07
+    },
+    {
+      "id": 434,
+      "name": "DSPPA DSP3025 250W Digital Waterproof Column",
+      "description": "Directional Speaker · DSPPA · Phased array, ±45° horizontal beam, 120° horizontal/50° vertical · Model: DSP3025B/W",
+      "price": 758.69
+    },
+    {
+      "id": 435,
+      "name": "DSPPA DSP1500 8x35W Digital Column Speaker",
+      "description": "Directional Speaker · DSPPA · 70V/100V, 130°x±45° coverage, 8x4-inch drivers · Model: DSP1500",
+      "price": 660
+    },
+    {
+      "id": 436,
+      "name": "DSPPA FP-808 Focus Point Speaker IR Sensor",
+      "description": "Directional Speaker · DSPPA · Built-in IR sensor, USB/SD source, narrow footprint targeting · Model: FP-808",
+      "price": 559.35
+    },
+    {
+      "id": 437,
+      "name": "DSPPA DSS1519 Directional Wallmount Speaker System",
+      "description": "Directional Speaker · DSPPA · Ultrasonic, <15° beam angle, 500Hz-13kHz range · Model: DSS1519",
+      "price": 522.5
+    },
+    {
+      "id": 438,
+      "name": "DSPPA LRAS1515A 150W Active Acoustic Hailing Device",
+      "description": "Long Range Acoustic · DSPPA · Built-in battery, 600m range, 137dB SPL @1m · Model: LRAS1515A",
+      "price": 1401.24
+    },
+    {
+      "id": 439,
+      "name": "DSPPA LRAS150 150W Active Acoustic Hailing Device",
+      "description": "Long Range Acoustic · DSPPA · Voice coil air cooling, shoulder-bag portable, customizable to 500W+ · Model: LRAS150",
+      "price": 937.58
+    },
+    {
+      "id": 440,
+      "name": "DSPPA DSP169HD Video Megaphone",
+      "description": "Long Range Acoustic · DSPPA · 200m range, voice enhance, alarm siren, built-in HD camera · Model: DSP169HD",
+      "price": 200.64
+    },
+    {
+      "id": 441,
+      "name": "DSPPA LRAD1405 50W Active Acoustic Hailing Device",
+      "description": "Long Range Acoustic · DSPPA · 70/100V, 4Ω/8Ω, 125dB max SPL, 30°x90° beam · Model: LRAD1405",
+      "price": 263.37
+    },
+    {
+      "id": 442,
+      "name": "DSPPA LRAD1410 100W Active Acoustic Hailing Device",
+      "description": "Long Range Acoustic · DSPPA · 70/100V, 4Ω/8Ω, 130dB max SPL, 30°x60° beam · Model: LRAD1410",
+      "price": 548.7
+    },
+    {
+      "id": 443,
+      "name": "DSPPA DSP2020A UHF Wireless Teaching Audio System",
+      "description": "Microphone · DSPPA · UHF+Infrared pairing, 30m+ range, feedback suppressor, mute function · Model: DSP2020A",
+      "price": 64.46
     }
   ],
   "invoices": [
@@ -2514,5 +3546,5 @@
       }
     }
   ],
-  "pushedAt": "2026-06-22T15:49:40.731Z"
+  "pushedAt": "2026-06-23T10:37:57.369Z"
 }
